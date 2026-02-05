@@ -1,0 +1,5367 @@
+[
+  {
+    "Name": "DemirDöküm",
+    "Models": [
+      {
+        "Name": "Aden",
+        "Errors": [
+          {
+            "Code": "F0",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Kombinin su basıncı çalışma sınırlarının (1.0 bar) altına düşmüş.",
+            "Solution": "Doldurma musluğunu açarak basıncı 1.5 - 2 bar arasına getirin."
+          },
+          {
+            "Code": "F1",
+            "Title": "Aşırı Isınma Emniyeti",
+            "Description": "Aşırı ısı termostatı (limit sensör) devreye girmiş.",
+            "Solution": "Cihazın soğumasını bekleyin ve resetleyin. Devam ederse termostat değişimi gerekir."
+          },
+          {
+            "Code": "F2",
+            "Title": "Kullanım Suyu Sensör Hatası",
+            "Description": "Sıcak su NTC sensöründe arıza veya kopukluk var.",
+            "Solution": "Sıcak su alamazsınız. Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "F4",
+            "Title": "Ateşleme Başarısızlığı",
+            "Description": "Cihaz ateşleme deniyor ancak alev oluşmuyor.",
+            "Solution": "Gaz vanalarını kontrol edin, cihazı resetleyin. Sorun gaz grubu veya elektrotlarda olabilir."
+          },
+          {
+            "Code": "F5/F6",
+            "Title": "Hava Akış Hatası",
+            "Description": "Hava akışı sağlanamıyor. Baca tıkalı veya prosestat arızalı.",
+            "Solution": "Baca bağlantılarını kontrol edin. Servis desteği alın."
+          },
+          {
+            "Code": "OC",
+            "Title": "Prosestat Takılı Kaldı",
+            "Description": "Hava prosestatı kontaktları yapışık kalmış.",
+            "Solution": "Cihaza reset atın. Düzelmezse parça değişimi gerekir."
+          },
+          {
+            "Code": "CC",
+            "Title": "Prosestat İptali",
+            "Description": "Prosestat veya baca sensörü devre dışı kalmış.",
+            "Solution": "Servis müdahalesi gereklidir."
+          }
+        ]
+      },
+      {
+        "Name": "Atron",
+        "Errors": [
+          {
+            "Code": "F1",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat sorunu. Cihaz aşırı ısınmış.",
+            "Solution": "Cihazı resetleyin. Devam ederse pompa veya termostat arızalıdır."
+          },
+          {
+            "Code": "F2",
+            "Title": "Sıcak Su Sensör Arızası",
+            "Description": "Sıcak su NTC sensörü arızalı.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "F3",
+            "Title": "Gidiş Suyu Sensör Hatası",
+            "Description": "Tesisat gidiş suyu sensöründe bağlantı sorunu.",
+            "Solution": "Kablo bağlantıları ve sensör kontrol edilmelidir."
+          },
+          {
+            "Code": "F4",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yokluğu veya iyonizasyon hatası.",
+            "Solution": "Gaz vanasını kontrol edin ve cihazı resetleyin."
+          },
+          {
+            "Code": "F5",
+            "Title": "Hava Akış Hatası",
+            "Description": "Hava prosestatı arızalı veya baca çekmiyor.",
+            "Solution": "Prosestat değişimi gerekebilir. Servis çağırın."
+          },
+          {
+            "Code": "F6",
+            "Title": "Dönüş Suyu Sensör Hatası",
+            "Description": "Tesisat dönüş suyu sensörü arızalı.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "F7",
+            "Title": "Gaz Armatür Hatası",
+            "Description": "Gaz valfi devresinde veya step motorda sorun var.",
+            "Solution": "Ateşleme yapılamaz. Servis desteği alın."
+          },
+          {
+            "Code": "F8",
+            "Title": "Gidiş Suyu Aşırı Isınma",
+            "Description": "Gidiş suyu sensörü aşırı sıcaklık algıladı.",
+            "Solution": "Cihaza müdahale etmeyin, servis çağırın."
+          },
+          {
+            "Code": "F9",
+            "Title": "Prosestat Kısa Devre",
+            "Description": "Hava prosestatı kısa devre yapmış.",
+            "Solution": "Parça değişimi gereklidir."
+          },
+          {
+            "Code": "F10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı 0.3 barın altında.",
+            "Solution": "Doldurma musluğu ile basıncı 1.5 bara getirin ve resetleyin."
+          },
+          {
+            "Code": "F11",
+            "Title": "Sirkülasyon Hatası",
+            "Description": "Su akışı sağlanamıyor (Pompa sorunu).",
+            "Solution": "Pompa veya tesisat tıkanıklığı kontrol edilmelidir."
+          },
+          {
+            "Code": "F12",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi 165V altında.",
+            "Solution": "Voltaj düzelene kadar bekleyin. Tekrarlarsa regülatör takın."
+          },
+          {
+            "Code": "F13",
+            "Title": "Sensör Fark Hatası",
+            "Description": "Gidiş ve dönüş sensörleri arasında tutarsızlık var.",
+            "Solution": "Sensörlerin kalibrasyonu veya değişimi gerekir."
+          }
+        ]
+      },
+      {
+        "Name": "İsofast",
+        "Errors": [
+          {
+            "Code": "F01/F04",
+            "Title": "Ateşleme Başarısızlığı",
+            "Description": "Gaz gelmiyor veya iyonizasyon algılanmadı.",
+            "Solution": "Gaz vanalarını açın, resetleyin."
+          },
+          {
+            "Code": "F02",
+            "Title": "Hava Akış Hatası",
+            "Description": "Prosestat arızalı, hava akışı yok.",
+            "Solution": "Baca ve prosestat kontrol edilmelidir."
+          },
+          {
+            "Code": "F03",
+            "Title": "Tekrarlayan Hava Hatası",
+            "Description": "Cihaz 2-3 saat içinde hava hatasını tekrarladı.",
+            "Solution": "Prosestat değişimi gerekebilir."
+          },
+          {
+            "Code": "F05",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devreye girdi.",
+            "Solution": "Cihazın soğumasını bekleyin ve resetleyin."
+          },
+          {
+            "Code": "F06",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma devresi sensörü arızalı.",
+            "Solution": "Petekler ısınmaz. Sensör değişimi gerekir."
+          },
+          {
+            "Code": "F07",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "DHW (Kullanım suyu) sensörü arızalı.",
+            "Solution": "Sıcak su alınamaz. Sensör değişimi gerekir."
+          },
+          {
+            "Code": "F11",
+            "Title": "Anakart Sinyal Yok",
+            "Description": "Anakarttan sinyal alınamıyor.",
+            "Solution": "Kart arızalı olabilir. Servis çağırın."
+          },
+          {
+            "Code": "F12",
+            "Title": "Ekran Kartı Hatası",
+            "Description": "Ekran kartından sinyal alınamıyor.",
+            "Solution": "Ekran kartı tamiri veya değişimi gerekir."
+          },
+          {
+            "Code": "F14",
+            "Title": "Aşırı Su Sıcaklığı",
+            "Description": "Kalorifer suyu 95°C üzerinde.",
+            "Solution": "Sirkülasyon sorunu olabilir. Servis çağırın."
+          },
+          {
+            "Code": "F15",
+            "Title": "Step Motor Hatası",
+            "Description": "Gaz mekanizması veya üç yollu vana motoru arızalı.",
+            "Solution": "Step motor değişimi gerekebilir."
+          },
+          {
+            "Code": "F16",
+            "Title": "Sahte Alev",
+            "Description": "Brülör sönmesine rağmen alev sinyali devam ediyor.",
+            "Solution": "İyonizasyon elektrodu veya gaz valfi arızalı."
+          },
+          {
+            "Code": "F17",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj 170V altında.",
+            "Solution": "Regülatör kullanımı önerilir."
+          },
+          {
+            "Code": "F21",
+            "Title": "Dolaşım Hatası",
+            "Description": "Su dolaşımı (sirkülasyon) sağlanamıyor.",
+            "Solution": "Pompa veya tesisat kontrol edilmelidir."
+          }
+        ]
+      },
+      {
+        "Name": "Millenium Plus",
+        "Errors": [
+          {
+            "Code": "F1/F4",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Resetleyin. Düzelmezse gaz valfi/iyonizasyon kontrolü gerekir."
+          },
+          {
+            "Code": "F2",
+            "Title": "Hava Başarısızlığı",
+            "Description": "Fan veya baca sorunu.",
+            "Solution": "Cihaz kendini otomatik resetler. Devam ederse servis arayın."
+          },
+          {
+            "Code": "F3",
+            "Title": "Hava Prosestat Hatası",
+            "Description": "Fan basıncı algılanamadı.",
+            "Solution": "Prosestat değişimi gerekebilir."
+          },
+          {
+            "Code": "F5",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat arızalı veya cihaz şişmiş.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "F21",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı yetersiz.",
+            "Solution": "Dolum vanasını açarak 1.5 bar su basın."
+          },
+          {
+            "Code": "F22",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Basınç 2.7 bar üzerinde.",
+            "Solution": "Petek hava alma yerinden su tahliye ederek basıncı düşürün."
+          }
+        ]
+      },
+      {
+        "Name": "Nitron",
+        "Errors": [
+          {
+            "Code": "F1",
+            "Title": "Limit Termostat Hatası",
+            "Description": "Aşırı ısınma nedeniyle cihaz bloke oldu.",
+            "Solution": "Cihazın soğumasını bekleyin ve resetleyin."
+          },
+          {
+            "Code": "F2",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Sıcak su sensör bağlantısı kopuk veya arızalı.",
+            "Solution": "Sıcak su alamazsınız. Servis çağırın."
+          },
+          {
+            "Code": "F4",
+            "Title": "Ateşleme Yapmıyor",
+            "Description": "Gaz gelmiyor, gaz valfi veya iyonizasyon arızalı.",
+            "Solution": "Gaz vanasını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F5",
+            "Title": "Hava Akış Sorunu",
+            "Description": "Hava prosestatı arızalı.",
+            "Solution": "Servis desteği alın."
+          },
+          {
+            "Code": "F10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı 0.3 bar altında.",
+            "Solution": "Doldurma musluğunu açıp 1.5 bar su basın."
+          },
+          {
+            "Code": "F11",
+            "Title": "Sirkülasyon Sorunu",
+            "Description": "Su devirdaimi yapılamıyor.",
+            "Solution": "Pompa sıkışmış veya filtre tıkalı olabilir."
+          },
+          {
+            "Code": "F12",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi 165V altında.",
+            "Solution": "Regülatör kullanmanız tavsiye edilir."
+          }
+        ]
+      },
+      {
+        "Name": "Solaris",
+        "Errors": [
+          {
+            "Code": "F0",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Kombi su basıncı düşük.",
+            "Solution": "Su seviyesini 1.5 bara ayarlayın."
+          },
+          {
+            "Code": "F1",
+            "Title": "Aşırı Isınma",
+            "Description": "Aşırı ısınma termostatı devreye girdi.",
+            "Solution": "Termostat arızalanmış olabilir. Servis çağırın."
+          },
+          {
+            "Code": "F2",
+            "Title": "Sıcak Su Sensör Arızası",
+            "Description": "Sıcak su NTC sensörü arızalı.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "F4",
+            "Title": "Alev Yok",
+            "Description": "Cihaz ateşleme deniyor ama alev almıyor.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "OC",
+            "Title": "Prosestat Takılı",
+            "Description": "Baca sensörü veya prosestat takılı kalmış.",
+            "Solution": "Birkaç kez resetleyin, düzelmezse servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Nitromix",
+        "Errors": [
+          {
+            "Code": "F00/F10",
+            "Title": "Gidiş Suyu Sensör Hatası",
+            "Description": "Sensör arızalı veya kablosu çıkmış.",
+            "Solution": "Servis desteği alın."
+          },
+          {
+            "Code": "F01/F11",
+            "Title": "Dönüş Suyu Sensör Hatası",
+            "Description": "Dönüş suyu sensörü arızalı.",
+            "Solution": "Servis desteği alın."
+          },
+          {
+            "Code": "F20",
+            "Title": "Aşırı Isınma",
+            "Description": "Sensörler yüksek sıcaklık algıladı.",
+            "Solution": "Petek vanalarını açın, resetleyin. Pompa sıkışmış olabilir."
+          },
+          {
+            "Code": "F22",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu 1.0 bar altında.",
+            "Solution": "Mavi doldurma musluğunu sola çevirerek 1.5 bar su basın."
+          },
+          {
+            "Code": "F26",
+            "Title": "Gaz Valfi Hatası",
+            "Description": "Gaz valfi yerinden çıkmış veya arızalı.",
+            "Solution": "Kullanıcı müdahale edemez, servis çağırın."
+          },
+          {
+            "Code": "F28",
+            "Title": "Gaz Yokluğu",
+            "Description": "Gaz gelmiyor veya ateşleme parçaları arızalı.",
+            "Solution": "Gaz var mı kontrol edin, 3 kez resetleyin."
+          },
+          {
+            "Code": "F32",
+            "Title": "Hatalı Hava Basıncı",
+            "Description": "Fan hızında sorun var (Donma koruması).",
+            "Solution": "Fan veya anakart arızalı olabilir."
+          },
+          {
+            "Code": "F49",
+            "Title": "Voltaj Hatası",
+            "Description": "Voltaj dalgalanması veya haberleşme sorunu.",
+            "Solution": "Bekleyin, düzelmezse kart arızalanmış olabilir. Regülatör takın."
+          },
+          {
+            "Code": "F70",
+            "Title": "Kart Uyumsuzluğu",
+            "Description": "Ana kart ve ekran kartı birbirine tanımlı değil.",
+            "Solution": "Servis tarafından kart ayarı yapılmalıdır."
+          },
+          {
+            "Code": "F77",
+            "Title": "Gaz Valfi Motor Hatası",
+            "Description": "Gaz valfi motoru çalışmıyor.",
+            "Solution": "Cihazı resetleyin. Düzelmezse parça değişimi gerekir."
+          }
+        ]
+      },
+      {
+        "Name": "Themafast",
+        "Errors": [
+          {
+            "Code": "F01/F04",
+            "Title": "Ateşleme Hatası",
+            "Description": "Kombiye gaz gelmiyor.",
+            "Solution": "Gaz vanalarını açın ve resetleyin."
+          },
+          {
+            "Code": "F02",
+            "Title": "Hava Akış Başarısızlığı",
+            "Description": "Prosestat arızalı.",
+            "Solution": "Parça değişimi gereklidir."
+          },
+          {
+            "Code": "F05",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat sensörü arızalı.",
+            "Solution": "Servis desteği alın."
+          },
+          {
+            "Code": "F17",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj yetersiz.",
+            "Solution": "Elektrikçi çağırın veya regülatör takın."
+          },
+          {
+            "Code": "F21",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 0.3 bar altında.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F22",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Basınç 2.7 bar üstünde.",
+            "Solution": "Petek hava alma yerinden su tahliye ederek basıncı düşürün."
+          }
+        ]
+      },
+      {
+        "Name": "Vinto",
+        "Errors": [
+          {
+            "Code": "F01/F04",
+            "Title": "Ateşleme Yok",
+            "Description": "Cihaz ateşleme yapmıyor.",
+            "Solution": "Gaz vanalarını kontrol edip resetleyin."
+          },
+          {
+            "Code": "F2",
+            "Title": "Hava Akış Sorunu",
+            "Description": "Hava prosestatı arızalı.",
+            "Solution": "Servis desteği alın."
+          },
+          {
+            "Code": "F5",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat arızalı.",
+            "Solution": "Servis desteği alın."
+          },
+          {
+            "Code": "F21",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı yetersiz.",
+            "Solution": "Doldurma musluğu ile 1.5 bara tamamlayın."
+          },
+          {
+            "Code": "F22",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Basınç 2.7 bar üzerinde.",
+            "Solution": "Peteklerden su tahliye ederek basıncı düşürün."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "E.C.A",
+    "Models": [
+      {
+        "Name": "Calora (Analog/Ledli)",
+        "Errors": [
+          {
+            "Code": "Tüm Ledler Hızlı Yanıp Sönüyor",
+            "Title": "Anakart İletişim Hatası",
+            "Description": "Anakart ile iletişim kesildi.",
+            "Solution": "Reset (R) düğmesine 2 saniye basılı tutun. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "L2 Yanıyor / Diğerleri Sönük",
+            "Title": "Alev Oluşmuyor (Ateşleme Hatası)",
+            "Description": "Kombi ateşleme yapamıyor. Gaz gelmiyor olabilir.",
+            "Solution": "Gaz vanalarını kontrol edin. Gaz varsa cihazı resetleyin."
+          },
+          {
+            "Code": "L1 Yanıp Sönüyor / L2 Yanıyor",
+            "Title": "Kalorifer Sensör Sorunu",
+            "Description": "Kalorifer sensörü arızalı veya kablolarda sorun var.",
+            "Solution": "Kullanıcı müdahalesi yapılamaz, servis çağırın."
+          },
+          {
+            "Code": "L3 Yanıp Sönüyor / L2 Yanıyor",
+            "Title": "Sıcak Su Sensör Sorunu",
+            "Description": "Kullanım suyu sensöründe arıza.",
+            "Solution": "Sıcak su alamazsınız. Servis çağırın."
+          },
+          {
+            "Code": "L2 Yanıp Sönüyor / Diğerleri Sönük",
+            "Title": "Aşırı Isınma Hatası",
+            "Description": "Limit termostat cihazı bloke etti. Su aşırı ısınmış.",
+            "Solution": "Petek vanalarının açık olduğundan emin olun, cihazı resetleyin."
+          },
+          {
+            "Code": "L4 Yanıp Sönüyor / L2 Yanıyor",
+            "Title": "Baca / Hava Akış Arızası",
+            "Description": "Hermetiklerde fan/prosestat, bacalılarda baca sensörü hatası.",
+            "Solution": "Baca bağlantısını kontrol edin, servis çağırın."
+          },
+          {
+            "Code": "L3 ve L4 Yanıp Sönüyor / L2 Yanıyor",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat su basıncı 1 barın altında.",
+            "Solution": "Mavi doldurma musluğunu sola çevirerek basıncı 1.5 bara getirin."
+          }
+        ]
+      },
+      {
+        "Name": "Calora Digital",
+        "Errors": [
+          {
+            "Code": "T6",
+            "Title": "Baca Gazı Sensör Sorunu",
+            "Description": "Baca gazı sensöründe açık veya kısa devre.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "T2",
+            "Title": "Baca Gazı Aşırı Isınma",
+            "Description": "Baca gazı sıcaklığı limitlerin üzerinde.",
+            "Solution": "Kombiyi kapatıp bekleyin, sonra resetleyin."
+          },
+          {
+            "Code": "E1",
+            "Title": "Ateşleme Arızası",
+            "Description": "Brülörde alev oluşmadı.",
+            "Solution": "Gaz vanalarını kontrol edin, cihazı resetleyin."
+          },
+          {
+            "Code": "E2",
+            "Title": "Hatalı Alev Oluşumu",
+            "Description": "Yanlış alev sinyali algılandı.",
+            "Solution": "Cihazı resetleyin. Düzelmezse iyonizasyon sorunu olabilir."
+          },
+          {
+            "Code": "E3",
+            "Title": "Aşırı Isınma Kilitlenmesi",
+            "Description": "Limit termostat devreye girdi, cihaz bloke oldu.",
+            "Solution": "Petek vanalarını açın, cihaz soğuyunca resetleyin."
+          },
+          {
+            "Code": "E4",
+            "Title": "Hava Basınç Anahtarı (Kısa Devre)",
+            "Description": "Prosestat kontakları kapalı kaldı.",
+            "Solution": "Fan veya prosestat arızalı olabilir. Servis çağırın."
+          },
+          {
+            "Code": "E5",
+            "Title": "Hava Basınç Anahtarı (Açık Devre)",
+            "Description": "Prosestat kontakları kapatmıyor.",
+            "Solution": "Fan çalışmıyor veya baca tıkalı olabilir."
+          },
+          {
+            "Code": "T1",
+            "Title": "Aşırı Isınma Uyarısı",
+            "Description": "Elektronik limit uyarısı.",
+            "Solution": "Cihazı resetleyin. Devam ederse E3 hatasına dönebilir."
+          },
+          {
+            "Code": "T3",
+            "Title": "Kalorifer Sensör Arızası",
+            "Description": "Merkezi ısıtma sensöründe sorun.",
+            "Solution": "Petekler ısınmaz. Sensör değişimi gerekir."
+          },
+          {
+            "Code": "T5",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu sensöründe sorun.",
+            "Solution": "Sıcak su gelmez. Servis çağırın."
+          },
+          {
+            "Code": "P1",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu azalmış.",
+            "Solution": "Doldurma musluğu ile basıncı 1.5 bara getirin."
+          },
+          {
+            "Code": "A1",
+            "Title": "Düşük Voltaj Hatası",
+            "Description": "Şebeke gerilimi yetersiz.",
+            "Solution": "Voltaj düzelene kadar bekleyin. Regülatör takılması önerilir."
+          }
+        ]
+      },
+      {
+        "Name": "Calora Premix",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme başarısızlığı.",
+            "Solution": "Gaz vanalarını kontrol edip resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Yanlış Alev Sinyali",
+            "Description": "Gaz valfi kapalıyken alev algılandı.",
+            "Solution": "Cihazı resetleyin."
+          },
+          {
+            "Code": "E05",
+            "Title": "Fan Geri Bildirim Hatası",
+            "Description": "Fandan uzun süredir sinyal alınamıyor.",
+            "Solution": "Fan veya anakart arızalı olabilir."
+          },
+          {
+            "Code": "E09",
+            "Title": "Gaz Valfi Sorunu",
+            "Description": "Gaz armatöründe arıza.",
+            "Solution": "Parça değişimi gereklidir."
+          },
+          {
+            "Code": "F34",
+            "Title": "Düşük Voltaj",
+            "Description": "Elektrik şebeke gerilimi düşük.",
+            "Solution": "Otomatik düzelmesini bekleyin. Regülatör kullanın."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı 1 barın altında.",
+            "Solution": "Doldurma musluğu ile basıncı 1.5 bara tamamlayın."
+          },
+          {
+            "Code": "F40",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Su basıncı 3 barın üzerinde.",
+            "Solution": "Petek hava alma yerinden su tahliye ederek basıncı düşürün."
+          }
+        ]
+      },
+      {
+        "Name": "Citius Premix",
+        "Errors": [
+          {
+            "Code": "A01",
+            "Title": "Ateşleme Hatası",
+            "Description": "Kombi ateşleme yapamıyor.",
+            "Solution": "Gaz girişlerini kontrol edin ve resetleyin."
+          },
+          {
+            "Code": "A03",
+            "Title": "Aşırı Sıcaklık Uyarısı",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Petek vanalarını açın, resetleyin. Pompa sıkışmış olabilir."
+          },
+          {
+            "Code": "C37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı 1.0 barın altında.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "C40",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Su basıncı çok yüksek.",
+            "Solution": "Peteklerden su tahliye ederek basıncı düşürün."
+          },
+          {
+            "Code": "C34",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi yetersiz.",
+            "Solution": "Voltaj düzelene kadar bekleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Confeo (Digital)",
+        "Errors": [
+          {
+            "Code": "T6",
+            "Title": "Baca Gazı Sorunu",
+            "Description": "Baca sensörü açık/kısa devre (Bacalı modeller).",
+            "Solution": "Baca çekişini kontrol edin, servis çağırın."
+          },
+          {
+            "Code": "E4",
+            "Title": "Prosestat Kısa Devre",
+            "Description": "Hava basınç anahtarı takılı kalmış.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E3",
+            "Title": "Aşırı Isınma",
+            "Description": "Kalorifer suyu aşırı ısındı, limit termostat attı.",
+            "Solution": "Petek vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E1",
+            "Title": "Ateşleme Problemi",
+            "Description": "Alev oluşmadı.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "P1",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu 1 barın altında.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Confeo Plus",
+        "Errors": [
+          {
+            "Code": "01",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı limitlerin üzerinde.",
+            "Solution": "Petek vanalarını açın, resetleyin."
+          },
+          {
+            "Code": "04",
+            "Title": "Alev Oluşmuyor",
+            "Description": "Ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "24",
+            "Title": "Hava / Baca Sistemi Arızası",
+            "Description": "Fan, prosestat veya baca sorunu.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "32",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj 160V altında.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          },
+          {
+            "Code": "40",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı yetersiz.",
+            "Solution": "Sol alttaki mavi musluktan 1.5 bara kadar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Confeo Premix",
+        "Errors": [
+          {
+            "Code": "01",
+            "Title": "Aşırı Isınma",
+            "Description": "Sıcaklık 105°C üzerinde.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "04",
+            "Title": "Ateşleme Arızası",
+            "Description": "Gaz gelmiyor veya ateşleme parçaları arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "40",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı düşük.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Fortius",
+        "Errors": [
+          {
+            "Code": "A1",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi yetersiz.",
+            "Solution": "Voltajın düzelmesini bekleyin."
+          },
+          {
+            "Code": "E1",
+            "Title": "Ateşleme Hatası",
+            "Description": "Alev oluşmuyor.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E3",
+            "Title": "Aşırı Isınma Kilitlenmesi",
+            "Description": "Limit termostat devreye girdi.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "P1",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı azaldı.",
+            "Solution": "Mavi/Siyah doldurma musluğundan 1.5 bar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Fortius Plus",
+        "Errors": [
+          {
+            "Code": "01",
+            "Title": "Aşırı Isınma",
+            "Description": "Sıcaklık 105°C üzerinde.",
+            "Solution": "Petekleri açın, resetleyin."
+          },
+          {
+            "Code": "04",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "40",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 1 barın altında.",
+            "Solution": "Sol alttaki mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "32",
+            "Title": "Güç Kaynağı Hatası",
+            "Description": "Voltaj 160V altında.",
+            "Solution": "Cihaz kendini otomatik resetler, voltajın düzelmesini bekleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Proteus / Proteus Plus / Blue",
+        "Errors": [
+          {
+            "Code": "F1",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı limitleri aştı.",
+            "Solution": "Petek vanalarını açın, cihazı kapatıp açın."
+          },
+          {
+            "Code": "F2",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Sıcak su gelmez. Servis çağırın."
+          },
+          {
+            "Code": "F3",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Petekler ısınmaz. Servis çağırın."
+          },
+          {
+            "Code": "F4",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, cihazı resetleyin."
+          },
+          {
+            "Code": "F5",
+            "Title": "Baca Sistemi Hatası",
+            "Description": "Atık gaz sistemi arızası.",
+            "Solution": "Resetleyin, düzelmezse servis çağırın."
+          },
+          {
+            "Code": "F7",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı eksik.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F8",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj emniyet sınırının altında.",
+            "Solution": "Voltaj düzelene kadar bekleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Proteus Premix",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Ateşleme Başarısızlığı",
+            "Description": "Gaz gitmiyor veya ateşleme parçaları arızalı.",
+            "Solution": "Gazı kontrol edip resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Aşırı Isınma",
+            "Description": "Sıcaklık 90°C'yi aştı.",
+            "Solution": "Petekleri kontrol edin, su basıncına bakın, resetleyin."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 0.4 bar civarında.",
+            "Solution": "Mavi doldurma musluğu ile 1.5 bar su basın."
+          },
+          {
+            "Code": "F40",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Basınç 3.3 bar üzerinde.",
+            "Solution": "Peteklerden su tahliye ederek basıncı düşürün."
+          }
+        ]
+      },
+      {
+        "Name": "Scot",
+        "Errors": [
+          {
+            "Code": "Er 03",
+            "Title": "Baca Gazı Aşırı Sıcaklık",
+            "Description": "Baca çekişi yetersiz veya su akışı yok.",
+            "Solution": "Tesisat basıncını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "Er 04",
+            "Title": "Donma Uyarısı",
+            "Description": "Su sıcaklığı 1°C altında.",
+            "Solution": "Cihazın ısınmasını bekleyin."
+          },
+          {
+            "Code": "Er 13 / 15",
+            "Title": "Ateşleme / Alev Hatası",
+            "Description": "Alev oluşmadı veya sinyal yok.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "Er 21",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 1 barın altında.",
+            "Solution": "Siyah musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "Er 22",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Basınç 3 barın üzerinde.",
+            "Solution": "Sistemden su tahliye edin."
+          },
+          {
+            "Code": "Er 32",
+            "Title": "Şebeke Voltaj Sorunu",
+            "Description": "Voltaj 170-255V aralığı dışında.",
+            "Solution": "Voltajın düzelmesini bekleyin."
+          }
+        ]
+      },
+      {
+        "Name": "White Plus",
+        "Errors": [
+          {
+            "Code": "C1 / A4 / 80°C",
+            "Title": "Prosestat Açıyor",
+            "Description": "Fan devir hızını sağlayamıyor.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E9 / 40°C",
+            "Title": "Aşırı Isınma",
+            "Description": "Emniyet termostatı devreye girdi.",
+            "Solution": "Petek vanalarını açın, resetleyin."
+          },
+          {
+            "Code": "EA / 50°C",
+            "Title": "Alev Yok",
+            "Description": "Brülörde alev algılanmadı.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "CE",
+            "Title": "Yüksek Sıcaklık Artış Hızı",
+            "Description": "Isınma çok hızlı gerçekleşiyor, sirkülasyon sorunu.",
+            "Solution": "Petek havalarını alın, vanaları kontrol edin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Baymak",
+    "Models": [
+      {
+        "Name": "Luna 3 Avant",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Gaz Beslemesi / Blokaj",
+            "Description": "Kombiye gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin. Gaz varsa 'R' tuşuna 2 sn basarak resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Emniyet Termostat Arızası",
+            "Description": "Aşırı ısınma nedeniyle termostat devreye girdi.",
+            "Solution": "Kombiyi kapatıp 5 dk bekleyin, sonra resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Baca Sensörü Arızası",
+            "Description": "Atık gaz sisteminde sorun veya baca çekişi yetersiz.",
+            "Solution": "Cihazı resetleyin. Sorun devam ederse servis çağırın."
+          },
+          {
+            "Code": "E04",
+            "Title": "Geçici Alev Kaybı",
+            "Description": "Alev oluştu ancak sürdürülemedi.",
+            "Solution": "Cihazı resetleyin."
+          },
+          {
+            "Code": "E05",
+            "Title": "Isıtma Devresi Sensör Hatası",
+            "Description": "Kalorifer NTC sensörü arızalı.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "E06",
+            "Title": "Kullanım Suyu Sensör Hatası",
+            "Description": "Sıcak su NTC sensörü arızalı.",
+            "Solution": "Sıcak su alamazsınız. Servis çağırın."
+          },
+          {
+            "Code": "E10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat su basıncı yetersiz.",
+            "Solution": "Kırmızı doldurma musluğu ile basıncı 1.5 - 2.0 bar arasına getirin."
+          },
+          {
+            "Code": "E25",
+            "Title": "Maksimum Sıcaklık Uyarısı",
+            "Description": "Su sıcaklığı çok yükseldi. Sirkülasyon sorunu olabilir.",
+            "Solution": "Petek vanalarının açık olduğundan emin olun. Filtreleri kontrol ettirin."
+          },
+          {
+            "Code": "E35",
+            "Title": "Alev Oluşum Arızası",
+            "Description": "Alev algılanamadı.",
+            "Solution": "Gaz vanalarını kontrol edip resetleyin."
+          },
+          {
+            "Code": "E97",
+            "Title": "Voltaj Hatası",
+            "Description": "Elektrik voltajı dengesiz.",
+            "Solution": "Regülatör kullanmanız önerilir. Bekleyin düzelmezse kart arızalıdır."
+          }
+        ]
+      },
+      {
+        "Name": "Baxi Main / Luna 240 Fi",
+        "Errors": [
+          {
+            "Code": "30°C Işığı Yanıp Sönüyor",
+            "Title": "Başarısız Ateşleme",
+            "Description": "Gaz gelmiyor veya ateşleme yapılamadı.",
+            "Solution": "Gaz vanalarını kontrol edin ve resetleyin."
+          },
+          {
+            "Code": "40°C Işığı Yanıp Sönüyor",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devreye girdi.",
+            "Solution": "Petekleri kontrol edin, cihaz soğuyunca resetleyin."
+          },
+          {
+            "Code": "50°C Işığı Yanıp Sönüyor",
+            "Title": "Baca / Hava Akış Arızası",
+            "Description": "Fan, prosestat veya baca çekişinde sorun.",
+            "Solution": "Baca bağlantısını kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "60°C Işığı Yanıp Sönüyor",
+            "Title": "Yetersiz Su Basıncı / Pompa",
+            "Description": "Su basıncı düşük veya pompa sıkışmış.",
+            "Solution": "Su basıncını 1.5 bara getirin. Düzelmezse pompa arızalıdır."
+          },
+          {
+            "Code": "70°C Işığı Yanıp Sönüyor",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu NTC sensörü arızalı.",
+            "Solution": "Sıcak su vermez. Servis çağırın."
+          },
+          {
+            "Code": "80°C Işığı Yanıp Sönüyor",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma devresi NTC sensörü arızalı.",
+            "Solution": "Petekler ısınmaz. Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Luna Avant",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yokluğu veya ateşleme elemanları arızalı.",
+            "Solution": "Gaz vanasını kontrol edin, 3 kez resetleyin."
+          },
+          {
+            "Code": "E02 / F02",
+            "Title": "Hatalı Alev Oluşumu",
+            "Description": "Alev oluşumunda düzensizlik.",
+            "Solution": "Resetleyin. İyonizasyon veya kart sorunu olabilir."
+          },
+          {
+            "Code": "E03",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat attı. Pompa sıkışmış veya sistem tıkalı.",
+            "Solution": "Resetleyin. Petek vanalarını açın."
+          },
+          {
+            "Code": "E04 / E05 / E06",
+            "Title": "Baca Sistemi Hatası",
+            "Description": "Atık gaz tahliyesinde sorun.",
+            "Solution": "Baca bağlantısını kontrol edin, servis çağırın."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu eksik.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Brotje Novadens",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Ateşleme Yok",
+            "Description": "Gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin ve resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Aşırı Isınma",
+            "Description": "Emniyet sensörü devreye girdi.",
+            "Solution": "Petek vanalarını açın, resetleyin."
+          },
+          {
+            "Code": "E05",
+            "Title": "Fan / Prosestat Hatası",
+            "Description": "Atık gaz sisteminde sorun.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı 1 barın altında.",
+            "Solution": "Doldurma musluğu ile 1.5 bara tamamlayın."
+          },
+          {
+            "Code": "F50 / F51",
+            "Title": "Boyler Sensör Hatası",
+            "Description": "Boyler sensöründe arıza.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Dolcevita / Felice",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Başarısız Ateşleme",
+            "Description": "Gaz yok veya ateşleme parçaları arızalı.",
+            "Solution": "Gaz vanalarını açın, 'R' tuşuyla resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devreye girdi.",
+            "Solution": "Cihazın soğumasını bekleyip resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Baca Sorunu",
+            "Description": "Fan, prosestat veya baca çekişinde sorun.",
+            "Solution": "Baca bağlantısını kontrol edin."
+          },
+          {
+            "Code": "E10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu bitmiş.",
+            "Solution": "Mavi doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "E96",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi yetersiz.",
+            "Solution": "Voltaj düzelene kadar bekleyin. Regülatör önerilir."
+          }
+        ]
+      },
+      {
+        "Name": "Duo Tec",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Başarısız Ateşleme",
+            "Description": "Gaz beslemesi yok veya ateşleme arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 1.0 barın altında.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın. Reset gerekebilir."
+          },
+          {
+            "Code": "F52",
+            "Title": "Kullanım Suyu NTC Hatası",
+            "Description": "Sıcak su sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Eco 4",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Başarısız Ateşleme",
+            "Description": "Gaz gelmiyor.",
+            "Solution": "Gaz vanalarını kontrol edin ve resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat cihazı durdurdu.",
+            "Solution": "Peteklerin açık olduğundan emin olun, resetleyin."
+          },
+          {
+            "Code": "E10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı yetersiz.",
+            "Solution": "Doldurma musluğu ile 1.5 bar su basın."
+          },
+          {
+            "Code": "E25",
+            "Title": "Maksimum Sıcaklık Uyarısı",
+            "Description": "Sirkülasyon sorunu veya tıkanıklık.",
+            "Solution": "Filtreleri ve vanaları kontrol edin."
+          }
+        ]
+      },
+      {
+        "Name": "Eco 5",
+        "Errors": [
+          {
+            "Code": "A01",
+            "Title": "Ateşleme Yok",
+            "Description": "Gaz girişini kontrol edin.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E03",
+            "Title": "Hava Basınç Prosestat Hatası",
+            "Description": "Atık gaz sisteminde sorun.",
+            "Solution": "Baca bağlantısını kontrol edin."
+          },
+          {
+            "Code": "E10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 1 barın altında.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "E26",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devrede.",
+            "Solution": "Petekleri kontrol edip resetleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Falke / Falke Master",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yokluğu veya parça arızası.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Aşırı Isınma",
+            "Description": "Eşanjörde aşırı ısınma.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Baca Sistemi Arızası",
+            "Description": "Hava akış sorunu.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu eksik.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Idee",
+        "Errors": [
+          {
+            "Code": "Yeşil (Yanıp Sönen)",
+            "Title": "Genel Arıza",
+            "Description": "Alev kaybı, iletişim hatası veya sensör sorunu.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "Kırmızı (Yanıp Sönen)",
+            "Title": "Aşırı Isınma Hatası",
+            "Description": "Sıcaklık limitleri aşıldı.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "Turuncu (Yanıp Sönen)",
+            "Title": "Bakım Uyarısı",
+            "Description": "Cihazın bakım zamanı gelmiş.",
+            "Solution": "Yetkili servisten bakım talep edin."
+          }
+        ]
+      },
+      {
+        "Name": "Lambert Attivo / LX",
+        "Errors": [
+          {
+            "Code": "E01 / A01",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz gelmiyor.",
+            "Solution": "Gaz vanalarını açın, resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Aşırı Isınma",
+            "Description": "Emniyet termostatı devreye girdi.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "E10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç yetersiz.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Nuvola Comfort",
+        "Errors": [
+          {
+            "Code": "10E",
+            "Title": "Dış Ortam Sensör Arızası",
+            "Description": "Dış hava sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "20E",
+            "Title": "Kalorifer Sensör Arızası",
+            "Description": "Gidiş hattı NTC arızası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "119E",
+            "Title": "Yetersiz Su Basıncı",
+            "Description": "Basınç düşük.",
+            "Solution": "Sisteme su ekleyerek 1.5 bara getirin."
+          },
+          {
+            "Code": "133E",
+            "Title": "Gaz Yetersiz",
+            "Description": "Ateşleme başarısız.",
+            "Solution": "Gaz vanasını kontrol edin, OK tuşuna basarak resetleyin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Vaillant",
+    "Models": [
+      {
+        "Name": "AtmoTEC",
+        "Errors": [
+          {
+            "Code": "F0 / F71",
+            "Title": "Gidiş Suyu Sensör Hatası",
+            "Description": "Kalorifer gidiş suyu sensöründe arıza veya kablo kopukluğu.",
+            "Solution": "Sensör değişimi gereklidir. Servis çağırın."
+          },
+          {
+            "Code": "F1",
+            "Title": "Dönüş Suyu Sensör Hatası",
+            "Description": "Kalorifer dönüş suyu sensöründe arıza.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "F5",
+            "Title": "Atık Gaz Sensör Hatası",
+            "Description": "Dış/İç baca sensöründe bağlantı sorunu (Bacalı modeller).",
+            "Solution": "Baca bağlantısını kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "F6",
+            "Title": "Baca Sensörü Hatası",
+            "Description": "Atık gaz sensörü arızalı veya elektrik bağlantısı hatalı.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "F10",
+            "Title": "Gidiş Suyu Sensör Kısa Devre",
+            "Description": "Gidiş suyu sensör kabloları kısa devre yapmış.",
+            "Solution": "Kabloların ve sensörün kontrolü gerekir."
+          },
+          {
+            "Code": "F11",
+            "Title": "Dönüş Suyu Sensör Kısa Devre",
+            "Description": "Dönüş suyu sensör kabloları kısa devre yapmış.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F13",
+            "Title": "Boyler Sensör Hatası",
+            "Description": "Boyler NTC sensörü veya bağlantılarında sorun.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "F20",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devreye girdi. Su sıcaklığı çok yüksek.",
+            "Solution": "Cihazın soğumasını bekleyin. Resetleyin."
+          },
+          {
+            "Code": "F22 / F23 / F24",
+            "Title": "Düşük Su Basıncı / Susuz Çalışma",
+            "Description": "Tesisatta su kalmamış veya basınç çok düşük.",
+            "Solution": "Doldurma musluğunu açarak basıncı 1.5 bara getirin."
+          },
+          {
+            "Code": "F25",
+            "Title": "Emniyet Termostatı Arızası",
+            "Description": "Atık gaz sıcaklığı çok yüksek.",
+            "Solution": "Kombinin soğumasını bekleyin. Servis çağırın."
+          },
+          {
+            "Code": "F26",
+            "Title": "Gaz Valfi Elektrik Hatası",
+            "Description": "Gaz valfine giden voltaj hatalı.",
+            "Solution": "Elektronik kart veya gaz valfi arızalı olabilir."
+          },
+          {
+            "Code": "F27",
+            "Title": "Yalancı Alev",
+            "Description": "Gaz valfi kapalıyken iyonizasyon alev algılıyor.",
+            "Solution": "Gaz ventili kaçırıyor veya iyonizasyon arızalı. Servis çağırın."
+          },
+          {
+            "Code": "F28",
+            "Title": "Ateşleme Başarısızlığı",
+            "Description": "Cihaz ateşleme yapamıyor veya gaz gelmiyor.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F29",
+            "Title": "Alev Sönmesi",
+            "Description": "Çalışırken alev sönüyor ve tekrar yanmıyor.",
+            "Solution": "Gaz giriş basıncını kontrol edin. Topraklama hatası olabilir."
+          },
+          {
+            "Code": "F33",
+            "Title": "Hava Prosestat Hatası",
+            "Description": "Prosestat kontakları açık kalıyor.",
+            "Solution": "Baca montajını kontrol edin. Fan veya prosestat arızalı olabilir."
+          },
+          {
+            "Code": "F36",
+            "Title": "Atık Gaz Yayılım Hatası",
+            "Description": "Yanma gazı dışarı atılamıyor.",
+            "Solution": "Baca tıkalı olabilir. Ortam havalandırmasını kontrol edin."
+          },
+          {
+            "Code": "F49",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj yetersiz veya kısa devre var.",
+            "Solution": "Regülatör kullanın. Elektrik hattını kontrol ettirin."
+          },
+          {
+            "Code": "F61 / F62",
+            "Title": "Gaz Valfi Kumanda Hatası",
+            "Description": "Gaz valfi veya elektronik kart arızası.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "F75",
+            "Title": "Basınç Sensörü Hatası",
+            "Description": "Pompa çalışmasına rağmen basınç farkı algılanmıyor.",
+            "Solution": "Su basıncını kontrol edin. Sensör veya pompa arızalı olabilir."
+          }
+        ]
+      },
+      {
+        "Name": "EcoFIT Start",
+        "Errors": [
+          {
+            "Code": "F01",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat sirkülasyonu kesti.",
+            "Solution": "Resetleyin. Eşanjör sensörü arızalı olabilir."
+          },
+          {
+            "Code": "F04",
+            "Title": "Ateşleme Arızası",
+            "Description": "Gaz yokluğu veya ayar hatası.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F05",
+            "Title": "Prosestat Hatası",
+            "Description": "25 saniye boyunca hava akışı sağlanamadı.",
+            "Solution": "Baca ve fan kontrol edilmeli."
+          },
+          {
+            "Code": "F10",
+            "Title": "Basınç Sensörü / Pompa",
+            "Description": "Tesisat basıncı yanlış veya pompa bloke.",
+            "Solution": "Su basıncını 1.5 bara getirin. Sistemde hava olabilir."
+          },
+          {
+            "Code": "F12",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi yetersiz.",
+            "Solution": "Voltajın düzelmesini bekleyin."
+          },
+          {
+            "Code": "F14",
+            "Title": "Ateşleme Blokajı",
+            "Description": "Yanıltıcı alev sinyali.",
+            "Solution": "Cihazı resetleyin."
+          },
+          {
+            "Code": "F15",
+            "Title": "Alev Yok",
+            "Description": "Alev oluşmadı, ateşleme bloke.",
+            "Solution": "Gaz vanalarını kontrol edin."
+          }
+        ]
+      },
+      {
+        "Name": "EcoTEC",
+        "Errors": [
+          {
+            "Code": "F00",
+            "Title": "Gidiş Suyu NTC Hatası",
+            "Description": "Sensör arızalı veya kablo kopuk.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F10",
+            "Title": "Gidiş Suyu NTC Kısa Devre",
+            "Description": "Sensör kablolarında kısa devre.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F20",
+            "Title": "Aşırı Isınma",
+            "Description": "Atık gaz veya su sıcaklığı limitleri aştı.",
+            "Solution": "Resetleyin. Düzelmezse NTC veya pompa arızalıdır."
+          },
+          {
+            "Code": "F22 / F23 / F24",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Sistemde su yok veya çok az.",
+            "Solution": "Su basıncını 1.5 bara tamamlayın."
+          },
+          {
+            "Code": "F28",
+            "Title": "Ateşleme Başarısız",
+            "Description": "Cihaz alev almıyor.",
+            "Solution": "Gaz vanasını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F32",
+            "Title": "Fan Hatası",
+            "Description": "Fan motoru sıkışmış veya devir sorunu var.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "F49",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj dalgalanması.",
+            "Solution": "Otomatik resetlenir. Regülatör önerilir."
+          },
+          {
+            "Code": "F61 / F62",
+            "Title": "Gaz Valfi Hatası",
+            "Description": "Gaz valfi kumandasında veya kapanmasında sorun.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F75",
+            "Title": "Basınç Farkı Algılanmadı",
+            "Description": "Pompa çalışıyor ama basınç değişmiyor.",
+            "Solution": "Su basıncını kontrol edin, sistem havasını alın."
+          }
+        ]
+      },
+      {
+        "Name": "TurboTEC / TurboTEC Plus",
+        "Errors": [
+          {
+            "Code": "F28",
+            "Title": "Ateşleme Başarısızlığı",
+            "Description": "Gaz gelmiyor veya ateşleme sistemi arızalı.",
+            "Solution": "Gaz vanalarını kontrol edip resetleyin."
+          },
+          {
+            "Code": "F29",
+            "Title": "Alev Sönmesi",
+            "Description": "Çalışma sırasında alev kayboluyor.",
+            "Solution": "Gaz giriş basıncı veya topraklama kontrol edilmeli."
+          },
+          {
+            "Code": "F22 / F23 / F24",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı yetersiz.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F20",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devrede.",
+            "Solution": "Cihazın soğumasını bekleyip resetleyin."
+          },
+          {
+            "Code": "F33",
+            "Title": "Prosestat Hatası",
+            "Description": "Hava akış anahtarı (prosestat) kontakları açmıyor/kapatmıyor.",
+            "Solution": "Baca ve fan kontrol edilmeli."
+          },
+          {
+            "Code": "F75",
+            "Title": "Basınç Sensörü / Pompa",
+            "Description": "Pompa çalışırken basınç farkı oluşmuyor.",
+            "Solution": "Basınç sensörü veya pompa arızalı olabilir."
+          }
+        ]
+      },
+      {
+        "Name": "VUW Pro (LED'li)",
+        "Errors": [
+          {
+            "Code": "1. LED (Yanıp Sönüyor)",
+            "Title": "Aşırı Isınma",
+            "Description": "Kombi kendini emniyete aldı.",
+            "Solution": "Petek vanalarını açın, 3 kez resetleyin."
+          },
+          {
+            "Code": "1. LED (Yanmıyor)",
+            "Title": "Elektrik Yok",
+            "Description": "Cihaza elektrik gelmiyor.",
+            "Solution": "Şalteri ve fişi kontrol edin."
+          },
+          {
+            "Code": "2. LED (Yanmıyor)",
+            "Title": "Su Akış Türbini Hatası",
+            "Description": "Sıcak su açılmasına rağmen kombi algılamıyor.",
+            "Solution": "Akış türbini arızalı olabilir."
+          },
+          {
+            "Code": "4. LED (Yanıp Sönüyor)",
+            "Title": "Atık Gaz Sistemi Hatası",
+            "Description": "Baca çekişi yok veya prosestat kapanmıyor.",
+            "Solution": "Baca bağlantısını kontrol edin."
+          },
+          {
+            "Code": "5. LED (Yanıp Sönüyor)",
+            "Title": "Hava / Su Basınç Sorunu",
+            "Description": "Eşanjörde hava var veya su basıncı düşük.",
+            "Solution": "Su basıncını kontrol edin, havaları alın."
+          },
+          {
+            "Code": "6. LED (Yanmıyor)",
+            "Title": "Ateşleme Yapmıyor",
+            "Description": "Gaz yokluğu veya ateşleme hatası.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "7. LED (Yanıyor)",
+            "Title": "Alev Oluşmadı",
+            "Description": "3 deneme sonunda alev oluşmadı.",
+            "Solution": "Gaz valfi veya kart arızalı olabilir. Resetleyin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Buderus",
+    "Models": [
+      {
+        "Name": "Logamax UOS2",
+        "Errors": [
+          {
+            "Code": "CL",
+            "Title": "Sıcak Kullanım Suyu Sensörü Arızası",
+            "Description": "Kullanım suyu sıcaklık sensörü arızalı veya yanlış monte edilmiş.",
+            "Solution": "Sensör değişimi veya montajının düzeltilmesi gerekir. Servis çağırın."
+          },
+          {
+            "Code": "SH",
+            "Title": "EMS İşletiminde Kesinti",
+            "Description": "Bağlantı kablosu veya termostatta sorun var.",
+            "Solution": "Kabloları ve termostatı kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "CP",
+            "Title": "Boyler Sensörü Algılanmıyor",
+            "Description": "Boyler sensörü arızalı veya kablosu kopuk.",
+            "Solution": "Sensör değişimi gereklidir. Servis çağırın."
+          },
+          {
+            "Code": "9C",
+            "Title": "Kod Anahtarı Algılanmıyor",
+            "Description": "Kod anahtarı arızalı veya yerine takılmamış.",
+            "Solution": "Kod anahtarını kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "3A",
+            "Title": "Diferansiyel Basınç Şalteri Hatası",
+            "Description": "Fan devir hızı sağlanamıyor veya şalter arızalı.",
+            "Solution": "Baca bağlantılarını ve fanı kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "QP",
+            "Title": "Hava Basınç Şalteri Hatası",
+            "Description": "Hava basınç şalteri düzgün açmıyor.",
+            "Solution": "Şalter veya kablo arızalı olabilir. Resetleyin."
+          },
+          {
+            "Code": "3C",
+            "Title": "Hava Akış Problemi",
+            "Description": "Hava basınç şalteri veya baca bağlantısında sorun.",
+            "Solution": "Baca eklerini kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "2E",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Isıtma tesisatı su basıncı düşük.",
+            "Solution": "Su basıncını 1.5 - 2.0 bar arasına getirin."
+          },
+          {
+            "Code": "8Y",
+            "Title": "8-9 Köprüsü Algılanmıyor",
+            "Description": "Soket oturmamış veya sıcaklık sınırlayıcı devreye girmiş.",
+            "Solution": "Vanalari açın, resetleyin."
+          },
+          {
+            "Code": "2P",
+            "Title": "Ani Sıcaklık Yükselmesi",
+            "Description": "Isıtma devresinde sıcaklık çok hızlı yükseliyor.",
+            "Solution": "Pompa veya vanaları kontrol edin."
+          },
+          {
+            "Code": "4Y",
+            "Title": "Gidiş Suyu Sensörü Arızası",
+            "Description": "Gidiş suyu sıcaklık sensörü arızalı veya kablosu kopuk.",
+            "Solution": "Sensör değişimi gereklidir. Servis çağırın."
+          },
+          {
+            "Code": "4C",
+            "Title": "Emniyet Termostatı Devrede",
+            "Description": "Aşırı ısınma nedeniyle termostat devreye girdi.",
+            "Solution": "Tesisat basıncını ve pompayı kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "6A",
+            "Title": "Alev Algılanmıyor",
+            "Description": "Gaz yokluğu veya ateşleme sorunu.",
+            "Solution": "Gaz vanasını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "EC",
+            "Title": "Dahili Hata",
+            "Description": "Elektronik kart arızası olabilir.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "EL",
+            "Title": "Düşük Voltaj",
+            "Description": "Referans gerilimi hatalı.",
+            "Solution": "Regülatör kullanmanız önerilir."
+          },
+          {
+            "Code": "6C",
+            "Title": "Alev Algılanmaya Devam Ediyor",
+            "Description": "Gaz kesildiği halde alev sinyali var.",
+            "Solution": "Gaz armatürü veya elektrotları kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "EP",
+            "Title": "Reset Butonu Hatası",
+            "Description": "Reset butonuna uzun süre basılmış.",
+            "Solution": "Reset butonuna tekrar basın."
+          }
+        ]
+      },
+      {
+        "Name": "Logamax U042",
+        "Errors": [
+          {
+            "Code": "40°C LED'i Yanıp Sönüyor",
+            "Title": "Düşük Su Basıncı / Aşırı Isınma",
+            "Description": "Su basıncı düşük veya aşırı ısınma var.",
+            "Solution": "Su basıncını 1.5 bara getirin. Petekleri açın."
+          },
+          {
+            "Code": "50°C LED'i Yanıp Sönüyor",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "60°C LED'i Yanıp Sönüyor",
+            "Title": "Prosestat İşletme Sırasında Açılıyor",
+            "Description": "Hava akış kontrolünde sorun.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "70°C LED'i Yanıp Sönüyor",
+            "Title": "Prosestat Devreye Girmiyor",
+            "Description": "Ateşleme sırasında hava akışı sağlanamıyor.",
+            "Solution": "Baca, fan veya prosestat arızalı olabilir."
+          },
+          {
+            "Code": "80°C LED'i Yanıp Sönüyor",
+            "Title": "Fan Devir Hızı Hatası",
+            "Description": "Fan motoru istenen hıza ulaşamıyor.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Bosch",
+    "Models": [
+      {
+        "Name": "Classic (LED)",
+        "Errors": [
+          {
+            "Code": "40°C Işığı Yanıp Sönüyor",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek, limit termostat devrede.",
+            "Solution": "Su basıncını kontrol edin (1.5 bar). Petekleri açın, resetleyin."
+          },
+          {
+            "Code": "50°C Işığı Yanıp Sönüyor",
+            "Title": "Alev Yok",
+            "Description": "Gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "60°C Işığı Yanıp Sönüyor",
+            "Title": "Baca / Fan Hatası",
+            "Description": "Fan devir hızı yetersiz veya atık gaz atılamıyor.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "70°C Işığı Yanıp Sönüyor",
+            "Title": "Prosestat Hatası",
+            "Description": "Ateşleme sırasında prosestat devreye girmiyor.",
+            "Solution": "Baca ve prosestat kontrol edilmeli. Servis çağırın."
+          },
+          {
+            "Code": "40°C ve 50°C Işıkları",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma devresi NTC sensörü arızalı.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "50°C ve 60°C Işıkları",
+            "Title": "Seçim Şalteri Hatası",
+            "Description": "Dip switch ayarları yanlış.",
+            "Solution": "Servis tarafından ayar yapılmalıdır."
+          },
+          {
+            "Code": "60°C ve 70°C Işıkları",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu NTC sensörü arızalı.",
+            "Solution": "Sıcak su vermez. Servis çağırın."
+          },
+          {
+            "Code": "40-50-60°C Işıkları",
+            "Title": "Hızlı Isı Artışı",
+            "Description": "Sıcaklık çok hızlı yükseliyor. Sirkülasyon sorunu.",
+            "Solution": "Pompa veya filtre tıkalı olabilir. Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Classic Condense / Plus",
+        "Errors": [
+          {
+            "Code": "EA",
+            "Title": "Ateşleme Sistemi Sorunu",
+            "Description": "Gaz yokluğu veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E9",
+            "Title": "Aşırı Isınma (STB)",
+            "Description": "Su sıcaklığı limitleri aştı, emniyet termostatı attı.",
+            "Solution": "Basıncı kontrol edin (1.5 bar). Petekleri açın, resetleyin."
+          },
+          {
+            "Code": "A7",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu NTC sensörü arızalı.",
+            "Solution": "Sıcak su gelmez. Servis çağırın."
+          },
+          {
+            "Code": "C6",
+            "Title": "Fan Arızası",
+            "Description": "Fan çalışmıyor veya devri algılanamıyor.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E2",
+            "Title": "Gidiş Suyu Sensör Hatası",
+            "Description": "Kalorifer gidiş suyu sensörü arızalı.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "B1",
+            "Title": "Kod Anahtarı Hatası",
+            "Description": "Kod anahtarı algılanmıyor veya yanlış.",
+            "Solution": "Servis tarafından kontrol edilmelidir."
+          },
+          {
+            "Code": "F7",
+            "Title": "Hatalı Alev Sinyali",
+            "Description": "Cihaz kapalıyken alev algılanıyor.",
+            "Solution": "İyonizasyon elektrodu veya kart arızalı olabilir."
+          },
+          {
+            "Code": "FA",
+            "Title": "Gaz Kesik Alev Var",
+            "Description": "Gaz kesilmesine rağmen alev devam ediyor.",
+            "Solution": "Gaz valfi kaçırıyor olabilir. Acil servis çağırın."
+          },
+          {
+            "Code": "Fd",
+            "Title": "Reset Kilitlenmesi",
+            "Description": "Reset tuşuna çok uzun basılmış.",
+            "Solution": "Cihazı şalterden kapatıp açın, tekrar deneyin."
+          }
+        ]
+      },
+      {
+        "Name": "Classic Silver",
+        "Errors": [
+          {
+            "Code": "EA",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme başarısız veya gaz gelmiyor.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E9",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Su basıncını tamamlayın, petekleri açın, resetleyin."
+          },
+          {
+            "Code": "C1",
+            "Title": "Fan Devri Düşük",
+            "Description": "Fan yeterli hıza ulaşamıyor, prosestat açıyor.",
+            "Solution": "Voltaj düşük olabilir veya fan arızalıdır."
+          },
+          {
+            "Code": "C6",
+            "Title": "Prosestat Hatası",
+            "Description": "Prosestat devreye girmiyor.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E2",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "A7",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Sıcak su NTC sensörü arızalı.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "CE",
+            "Title": "Yüksek Sıcaklık Artış Hızı",
+            "Description": "Isınma çok hızlı gerçekleşiyor, sirkülasyon yok.",
+            "Solution": "Filtreleri ve vanaları kontrol edin. Pompa sıkışmış olabilir."
+          }
+        ]
+      },
+      {
+        "Name": "Condens 2000",
+        "Errors": [
+          {
+            "Code": "EA",
+            "Title": "Ateşleme Sistemi Sorunu",
+            "Description": "Gaz yok veya ateşleme parçaları arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E9",
+            "Title": "Aşırı Isınma (STB)",
+            "Description": "Limit termostat devrede.",
+            "Solution": "Su basıncını 1.5 bara getirin, resetleyin."
+          },
+          {
+            "Code": "A7",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensöründe sorun.",
+            "Solution": "Sıcak su gelmez. Servis çağırın."
+          },
+          {
+            "Code": "C6",
+            "Title": "Fan Çalışmıyor",
+            "Description": "Fan motoru veya kart arızası.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "b3",
+            "Title": "Yoğuşma Sensör Hatası",
+            "Description": "Yoğuşma suyu gideri tıkalı veya sensör arızalı.",
+            "Solution": "Gider hortumunu kontrol edin."
+          },
+          {
+            "Code": "Lo",
+            "Title": "Çocuk Kilidi Aktif",
+            "Description": "Tuş kilidi devrede (Arıza değildir).",
+            "Solution": "Kilit simgesine veya anahtar tuşuna basılı tutun."
+          },
+          {
+            "Code": "Fd",
+            "Title": "Reset Kilitlenmesi",
+            "Description": "Reset tuşuna yanlış basıldı.",
+            "Solution": "Cihazı kapatıp açın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Viessmann",
+    "Models": [
+      {
+        "Name": "Vitodens 050",
+        "Errors": [
+          {
+            "Code": "F10 / F18",
+            "Title": "Dış Hava Sensör Hatası",
+            "Description": "Dış hava sıcaklık sensöründe kısa devre veya temassızlık.",
+            "Solution": "Sensör ve kabloları kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "F30 / F38",
+            "Title": "Kazan Sıcaklık Sensör Hatası",
+            "Description": "Kazan sıcaklık sensöründe kısa devre veya temassızlık.",
+            "Solution": "Sensör değişimi gereklidir. Servis çağırın."
+          },
+          {
+            "Code": "F51 / F59",
+            "Title": "Çıkış Sıcaklık Sensör Hatası",
+            "Description": "Sıcak su hazırlanamıyor. Sensörde kısa devre veya temassızlık.",
+            "Solution": "Sensör değişimi gereklidir. Servis çağırın."
+          },
+          {
+            "Code": "F0A",
+            "Title": "Debi Sensörü Hatası",
+            "Description": "Debi sensöründe kısa devre veya temassızlık.",
+            "Solution": "Bağlantıları kontrol edin, gerekirse sensörü değiştirin."
+          },
+          {
+            "Code": "Fb0 / Fb8",
+            "Title": "Baca Gazı Sensör Hatası",
+            "Description": "Baca gazı sıcaklık sensöründe kısa devre veya temassızlık.",
+            "Solution": "Sensör değişimi gereklidir. Servis çağırın."
+          },
+          {
+            "Code": "F02",
+            "Title": "Emniyet Termostatı Attı",
+            "Description": "Aşırı ısınma nedeniyle brülör arızaya geçti.",
+            "Solution": "Sistemin havasını alın, pompayı kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "F03",
+            "Title": "Alev Sinyali Mevcut",
+            "Description": "Brülör çalışmadan önce alev sinyali algılandı.",
+            "Solution": "İyonizasyon elektrodunu kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "F04",
+            "Title": "Alev Sinyali Yok",
+            "Description": "Ateşleme başarısız veya alev oluşmadı.",
+            "Solution": "Gazı kontrol edin, resetleyin. Servis gerekebilir."
+          },
+          {
+            "Code": "F06",
+            "Title": "Hava Basınç Şalteri Hatası",
+            "Description": "Şalter açılmadı veya kapanmadı.",
+            "Solution": "Baca ve hava basınç şalterini kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "06",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Isıtma sistemi basıncı çok düşük.",
+            "Solution": "Sisteme su ilave edin."
+          }
+        ]
+      },
+      {
+        "Name": "Vitodens 100",
+        "Errors": [
+          {
+            "Code": "0b",
+            "Title": "Isıtma Suyu Debisi Düşük",
+            "Description": "Eşanjör hava yapmış veya su akış sensörü arızalı.",
+            "Solution": "Sistemin havasını alın. Servis çağırın."
+          },
+          {
+            "Code": "OC",
+            "Title": "Şebeke Gerilimi Düşük",
+            "Description": "Voltaj yetersiz.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          },
+          {
+            "Code": "10 / 18",
+            "Title": "Dış Hava Sensör Hatası",
+            "Description": "Dış hava sensöründe temassızlık veya kısa devre.",
+            "Solution": "Sensör kontrol edilmeli. Servis çağırın."
+          },
+          {
+            "Code": "30 / 38",
+            "Title": "Kombi Isı Sensör Hatası",
+            "Description": "Isı sensöründe kısa devre veya temassızlık.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "50 / 58",
+            "Title": "Kullanım Suyu Sensör Hatası",
+            "Description": "Sıcak su sensöründe arıza veya kablo kopukluğu.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "51 / 59",
+            "Title": "Kalorifer Gidiş Sensör Hatası",
+            "Description": "Kalorifer gidiş NTC sensöründe arıza veya kısa devre.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "A9",
+            "Title": "Oda Termostatı İletişim Hatası",
+            "Description": "Oda termostatı ile bağlantı kurulamıyor.",
+            "Solution": "Termostat bağlantılarını kontrol edin."
+          },
+          {
+            "Code": "E4",
+            "Title": "Besleme Gerilimi Sorunu",
+            "Description": "Şebeke adaptöründe sorun olabilir.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E6",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı 1 barın altında.",
+            "Solution": "Siyah doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F2",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı limitleri aştı.",
+            "Solution": "Petekleri açın, resetleyin. Pompa sıkışmış olabilir."
+          },
+          {
+            "Code": "F3",
+            "Title": "Yanlış Alev Sinyali",
+            "Description": "Brülör çalışırken yanlış alev sinyali alındı.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "F4",
+            "Title": "Ateşleme Hatası",
+            "Description": "Alev oluşmadı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F5",
+            "Title": "Hava Prosestat Hatası",
+            "Description": "Hava akış sorunu. Fan veya prosestat arızalı.",
+            "Solution": "Baca bağlantısını kontrol edin. Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Vitopend 100",
+        "Errors": [
+          {
+            "Code": "0b",
+            "Title": "Düşük Sirkülasyon",
+            "Description": "Isıtma suyu sirkülasyonu yetersiz.",
+            "Solution": "Hava alın, filtreleri kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "A0",
+            "Title": "Düşük Gaz Basıncı",
+            "Description": "Şebeke gaz basıncı düşük.",
+            "Solution": "Doğalgaz dağıtım şirketiyle görüşün."
+          },
+          {
+            "Code": "E0 / F6",
+            "Title": "Baca Gazı Sensör Hatası",
+            "Description": "Baca gazı sensörü kapalı konuma geçti.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F2",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devreye girdi.",
+            "Solution": "Petekleri açın, resetleyin."
+          },
+          {
+            "Code": "F3",
+            "Title": "Yanlış Alev Sinyali",
+            "Description": "Brülör çalışırken yanlış alev algılandı.",
+            "Solution": "Resetleyin. Kart veya gaz valfi sorunu olabilir."
+          },
+          {
+            "Code": "F4",
+            "Title": "Ateşleme Hatası",
+            "Description": "Alev oluşmadı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F5",
+            "Title": "Baca Sistemi Arızası",
+            "Description": "Fan, prosestat veya baca sorunu.",
+            "Solution": "Baca bağlantısını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "F30 / 38",
+            "Title": "Kalorifer NTC Hatası",
+            "Description": "Kalorifer sensörü arızalı, kısa devre veya temassızlık.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "F51 / 59",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Sıcak su sensörü arızalı veya kısa devre.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "B0 / B8",
+            "Title": "Baca Gazı Sensör Sorunu",
+            "Description": "Baca gazı sensörü arızalı veya kablo kopuk.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Airfel",
+    "Models": [
+      {
+        "Name": "Dialog",
+        "Errors": [
+          {
+            "Code": "E1",
+            "Title": "Alev Kesintisi / Ateşleme Hatası",
+            "Description": "Kombiye gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin. Cihazı kapatıp açarak resetleyin."
+          },
+          {
+            "Code": "E2",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı maksimum seviyeyi aştı.",
+            "Solution": "Su basıncını kontrol edin. Petek vanalarını açın. Cihazı resetleyin."
+          },
+          {
+            "Code": "E3",
+            "Title": "Atık Gaz Sistemi Hatası",
+            "Description": "Baca çekişinde veya hava akışında sorun.",
+            "Solution": "Baca bağlantısını kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "E4",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı 1 barın altında.",
+            "Solution": "Doldurma musluğu ile basıncı 1.5 bara getirin."
+          },
+          {
+            "Code": "E6",
+            "Title": "Kullanım Suyu Sensör Hatası",
+            "Description": "Sıcak su NTC sensörü arızalı.",
+            "Solution": "Sıcak su gelmez. Servis çağırın."
+          },
+          {
+            "Code": "E7",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma devresi NTC sensörü arızalı.",
+            "Solution": "Petekler ısınmaz. Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Digifel Duo",
+        "Errors": [
+          {
+            "Code": "LP",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı 1 barın altında.",
+            "Solution": "Mavi doldurma musluğu ile 1.5 bara kadar su basın. Gerekirse 'R' tuşuyla resetleyin."
+          },
+          {
+            "Code": "HL",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı 100°C üzerinde.",
+            "Solution": "Petekleri kontrol edin, su basıncına bakın ve resetleyin."
+          },
+          {
+            "Code": "AF",
+            "Title": "Baca / Prosestat Hatası",
+            "Description": "Fan, prosestat veya anakart arızası.",
+            "Solution": "Baca bağlantılarını kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "HB",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma NTC sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "DB",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu NTC sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "BC",
+            "Title": "Ateşleme Hatası",
+            "Description": "Brülörde yanma oluşmadı.",
+            "Solution": "Gaz vanalarını kontrol edin. 3 kez resetleyin."
+          },
+          {
+            "Code": "C1",
+            "Title": "Gaz Valfi Modülasyon Hatası",
+            "Description": "Gaz valfine yeterli voltaj gelmiyor.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "A5",
+            "Title": "Prosestat Kararsızlığı",
+            "Description": "Ateşleme sırasında hava akış anahtarı hatası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "FR",
+            "Title": "Donma Tehlikesi",
+            "Description": "Su sıcaklığı 1°C civarında algılandı.",
+            "Solution": "Cihazı kapatın, suyu boşaltın veya ortamı ısıtın."
+          }
+        ]
+      },
+      {
+        "Name": "Digifel Premix",
+        "Errors": [
+          {
+            "Code": "C1 10",
+            "Title": "Limit Termostat Devrede",
+            "Description": "Sıcaklık 93°C üzerinde, aşırı ısınma.",
+            "Solution": "Petekleri ve basıncı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "C1 33",
+            "Title": "Ateşleme Sorunu",
+            "Description": "Gaz yokluğu veya ateşleme hatası.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "C1 18",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 1 barın altında.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "C1 17",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Basınç 2.5 barın üzerinde.",
+            "Solution": "Peteklerden su tahliye ederek basıncı düşürün."
+          },
+          {
+            "Code": "C 20",
+            "Title": "Gidiş Suyu Sensör Hatası",
+            "Description": "Kalorifer gidiş NTC arızası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "C 40",
+            "Title": "Dönüş Suyu Sensör Hatası",
+            "Description": "Kalorifer dönüş NTC arızası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "C 50",
+            "Title": "Kullanım Suyu Sensör Hatası",
+            "Description": "Sıcak su NTC arızası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "C1 29",
+            "Title": "Fan Arızası",
+            "Description": "Fan çalışmıyor.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "C1 56",
+            "Title": "Voltaj Hatası",
+            "Description": "Besleme voltajı hatalı.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          }
+        ]
+      },
+      {
+        "Name": "Digifix Duo",
+        "Errors": [
+          {
+            "Code": "LP",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı yetersiz.",
+            "Solution": "Mavi doldurma musluğu ile 1.5 bara tamamlayın."
+          },
+          {
+            "Code": "HL",
+            "Title": "Limit Termostat Hatası",
+            "Description": "Aşırı ısınma tespit edildi.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "AF",
+            "Title": "Baca Sistemi Hatası",
+            "Description": "Hava akışında sorun var.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "BC",
+            "Title": "Ateşleme Hatası",
+            "Description": "Alev oluşmadı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "C1",
+            "Title": "Gaz Valfi Hatası",
+            "Description": "Modülasyon sorunu.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Ecofel (LED)",
+        "Errors": [
+          {
+            "Code": "1. Yeşil Hızlı, 2. Kırmızı Sabit",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı 1 barın altında.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "Sadece 2. Kırmızı Yanıyor",
+            "Title": "Alev Yok / Ateşleme Hatası",
+            "Description": "Gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, cihazı kapatıp açın."
+          },
+          {
+            "Code": "1. Yeşil ve 2. Kırmızı Sabit",
+            "Title": "Emniyet Termostatı Kapaması",
+            "Description": "Aşırı ısınma meydana geldi.",
+            "Solution": "Petekleri kontrol edin, cihazı kapatıp açın."
+          },
+          {
+            "Code": "2. Kırmızı ve 3. Yeşil Sabit",
+            "Title": "Baca Sistemi Hatası",
+            "Description": "Hava akış sorunu (Fan/Prosestat).",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "2. Kırmızı ve 3. Yeşil Hızlı",
+            "Title": "Kalorifer NTC Arızası",
+            "Description": "Isıtma sensöründe sorun.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "1. Yeşil ve 2. Kırmızı Hızlı",
+            "Title": "Sıcak Su NTC Arızası",
+            "Description": "Kullanım suyu sensöründe sorun.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Minimax",
+        "Errors": [
+          {
+            "Code": "E1",
+            "Title": "Alev Kesintisi",
+            "Description": "Ateşleme başarısız veya gaz yok.",
+            "Solution": "Gazı kontrol edin, cihazı kapatıp açarak resetleyin."
+          },
+          {
+            "Code": "E2",
+            "Title": "Aşırı Sıcaklık",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Petek vanalarını kontrol edin, su basıncına bakın."
+          },
+          {
+            "Code": "E3",
+            "Title": "Atık Gaz Sorunu",
+            "Description": "Baca çekişi veya fan sorunu.",
+            "Solution": "Baca bağlantısını kontrol edin."
+          },
+          {
+            "Code": "E4",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı 1 barın altında.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "E6",
+            "Title": "Kullanım Suyu Sensör Hatası",
+            "Description": "Sıcak su NTC arızası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E7",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma NTC arızası.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Protherm",
+    "Models": [
+      {
+        "Name": "Leon",
+        "Errors": [
+          {
+            "Code": "F0",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat su basıncı yetersiz.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın. '0' konumuna getirip resetleyin."
+          },
+          {
+            "Code": "F1",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek, limit termostat devrede.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F2",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Sıcak su alamazsınız. Servis çağırın."
+          },
+          {
+            "Code": "F3",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Petekler ısınmaz. Servis çağırın."
+          },
+          {
+            "Code": "F4",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yokluğu veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F5",
+            "Title": "Hava Akış Prosestat Hatası",
+            "Description": "Baca çekişi veya hava akışı sorunu.",
+            "Solution": "Baca bağlantısını kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "F6",
+            "Title": "Dış Hava Sensör Hatası",
+            "Description": "Dış hava sensörü veya bağlantısı arızalı.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Leopard (Dijital)",
+        "Errors": [
+          {
+            "Code": "F0",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 1 barın altında.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F1",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını açın, resetleyin."
+          },
+          {
+            "Code": "F2",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Gidiş suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F3",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devreye girdi.",
+            "Solution": "Petekleri açın, resetleyin."
+          },
+          {
+            "Code": "F4",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F7",
+            "Title": "Kart Hatası / Basınç Sorunu",
+            "Description": "Su basıncı yanlış veya kart arızalı.",
+            "Solution": "Su basıncını kontrol edin (1-2 bar). Düzelmezse servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Leopard (LED)",
+        "Errors": [
+          {
+            "Code": "ECO Yanıp Sönüyor",
+            "Title": "Kalorifer Sensör Sorunu",
+            "Description": "Tesisat suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "40 Yanıp Sönüyor",
+            "Title": "Sıcak Su Sensör Sorunu",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "50 Yanıp Sönüyor",
+            "Title": "Hava Akış Sorunu",
+            "Description": "Prosestat veya baca sorunu.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "60 Yanıp Sönüyor",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "70 Yanıp Sönüyor",
+            "Title": "Ateşleme Sorunu",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "80 Yanıp Sönüyor",
+            "Title": "Su Basınç Hatası",
+            "Description": "Basınç çok düşük veya yüksek.",
+            "Solution": "Basıncı 1.5 bara ayarlayın."
+          }
+        ]
+      },
+      {
+        "Name": "Lynx",
+        "Errors": [
+          {
+            "Code": "F01",
+            "Title": "Aşırı Isınma",
+            "Description": "Emniyet termostatı devreye girdi.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F02",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F03",
+            "Title": "Kalorifer Gidiş Sensör Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F04",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yokluğu veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F05",
+            "Title": "Baca Sistemi Hatası",
+            "Description": "Hava akış sorunu.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F10",
+            "Title": "Su Basınç Hatası",
+            "Description": "Basınç düşük (<1 bar) veya yüksek (>2.5 bar).",
+            "Solution": "Basıncı 1.5 bara ayarlayın."
+          },
+          {
+            "Code": "F12",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi yetersiz.",
+            "Solution": "Voltajın düzelmesini bekleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Lynx Condens",
+        "Errors": [
+          {
+            "Code": "F00 / F01",
+            "Title": "Gidiş/Dönüş Sensör Hatası",
+            "Description": "Sıcaklık sensörlerinde arıza.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F20",
+            "Title": "Aşırı Isınma",
+            "Description": "Sıcaklık limitleri aşıldı.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "F22",
+            "Title": "Yetersiz Su Basıncı",
+            "Description": "Sistemde su yok veya çok az.",
+            "Solution": "Su basıncını tamamlayın."
+          },
+          {
+            "Code": "F28 / F29",
+            "Title": "Ateşleme Başarısız / Alev Sönmesi",
+            "Description": "Gaz yokluğu veya ateşleme sorunu.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Panther",
+        "Errors": [
+          {
+            "Code": "F0",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu eksik.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F1",
+            "Title": "Ateşleme Arızası",
+            "Description": "Gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F2",
+            "Title": "Kalorifer Sensör Arızası",
+            "Description": "Gidiş suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F3",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat attı.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Alarko",
+    "Models": [
+      {
+        "Name": "ATAG Yoğuşmalı",
+        "Errors": [
+          {
+            "Code": "BL 01",
+            "Title": "Harici Emniyet Kontak Kesmesi",
+            "Description": "Dış güvenlik sisteminden kaynaklı blokaj.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E 00",
+            "Title": "Yetersiz Alev Oluşumu",
+            "Description": "Alev oluşuyor ancak yeterli seviyede değil.",
+            "Solution": "Gaz basıncını kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "E 02",
+            "Title": "Alev Yok",
+            "Description": "Brülörde alev oluşmadı.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E 12",
+            "Title": "Sigorta Hatası",
+            "Description": "24V sigorta atmış.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E 18",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı limitleri aştı.",
+            "Solution": "Resetleyin. Petek vanalarını kontrol edin."
+          },
+          {
+            "Code": "E 28",
+            "Title": "Fan Arızası",
+            "Description": "Fan çalışmıyor veya devri algılanamıyor.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "BL 85",
+            "Title": "Su Akışı Algılanmadı",
+            "Description": "Sirkülasyon yok veya hava var.",
+            "Solution": "Su basıncını kontrol edin, hava alma işlemi yapın."
+          }
+        ]
+      },
+      {
+        "Name": "Harmony-D",
+        "Errors": [
+          {
+            "Code": "F0",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu azalmış.",
+            "Solution": "Doldurma musluğu ile basıncı 1.5 bara getirin. Resetleyin."
+          },
+          {
+            "Code": "F1",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devreye girdi.",
+            "Solution": "'R' tuşu ile resetleyin. Petekleri kontrol edin."
+          },
+          {
+            "Code": "F2",
+            "Title": "Sıcak Su NTC Arızası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Sıcak su gelmez. Servis çağırın."
+          },
+          {
+            "Code": "F3",
+            "Title": "Kalorifer NTC Arızası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Petekler ısınmaz. Servis çağırın."
+          },
+          {
+            "Code": "F4",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F5",
+            "Title": "Baca Sistemi Hatası",
+            "Description": "Fan veya hava akış sorunu.",
+            "Solution": "Servis müdahalesi gereklidir."
+          }
+        ]
+      },
+      {
+        "Name": "Minea",
+        "Errors": [
+          {
+            "Code": "40 LED'i Yanıp Sönüyor",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı düşük.",
+            "Solution": "Doldurma musluğundan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "50 LED'i Yanıp Sönüyor",
+            "Title": "Baca Hatası",
+            "Description": "Atık gaz sistemi arızası.",
+            "Solution": "Resetleyin (şalteri kapatıp açın). Servis çağırın."
+          },
+          {
+            "Code": "60 LED'i Yanıp Sönüyor",
+            "Title": "Ateşleme Arızası",
+            "Description": "Gaz yok veya ateşleme parçaları arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "70 LED'i Yanıp Sönüyor",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devrede.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "80 LED'i Yanıp Sönüyor",
+            "Title": "NTC Sensör Hatası",
+            "Description": "Sıcak su veya kalorifer sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Seradens",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Ateşleme Sorunu",
+            "Description": "Gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Limit Termostat Sorunu",
+            "Description": "Aşırı ısınma meydana geldi.",
+            "Solution": "Su basıncını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Atık Gaz Sistemi Sorunu",
+            "Description": "Baca veya fan arızası.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E04",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı yetersiz.",
+            "Solution": "Mavi/Siyah musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "E05 / E15",
+            "Title": "Kalorifer Sensör Sorunu",
+            "Description": "Gidiş veya dönüş sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E06",
+            "Title": "Kullanım Suyu Sensör Sorunu",
+            "Description": "Sıcak su NTC arızası.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Serena (Eski Model)",
+        "Errors": [
+          {
+            "Code": "30 LED'i Yanıp Sönüyor",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yok veya ateşleme yapılamadı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "40 LED'i Yanıp Sönüyor",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "60 LED'i Yanıp Sönüyor",
+            "Title": "Sirkülasyon Problemi",
+            "Description": "Su devir daimi olmuyor.",
+            "Solution": "Petek vanalarını açın. Filtreleri kontrol edin."
+          },
+          {
+            "Code": "70 LED'i Yanıp Sönüyor",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı 1 barın altında.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "80 LED'i Yanıp Sönüyor",
+            "Title": "Aşırı Sıcaklık",
+            "Description": "Su sıcaklığı 85°C'yi geçti.",
+            "Solution": "Dereceyi düşürün, resetleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Serena (Yeni Model)",
+        "Errors": [
+          {
+            "Code": "F0",
+            "Title": "Tesisat Basıncı Düşük",
+            "Description": "Su basıncı yetersiz.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F1",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devreye girdi.",
+            "Solution": "'R' tuşu ile resetleyin."
+          },
+          {
+            "Code": "F4",
+            "Title": "Ateşleme Başarısız",
+            "Description": "Gaz yokluğu veya ateşleme sorunu.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F5",
+            "Title": "Fark Basınç Anahtarı",
+            "Description": "Hava akış (prosestat) sorunu.",
+            "Solution": "Servis müdahalesi gereklidir."
+          }
+        ]
+      },
+      {
+        "Name": "Süper Comfort",
+        "Errors": [
+          {
+            "Code": "01",
+            "Title": "Ateşleme Gerçekleşmiyor",
+            "Description": "Gaz yok veya ateşleme arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "02",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı 95°C üzerinde.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "04",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı yetersiz.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Trendy",
+        "Errors": [
+          {
+            "Code": "40 LED'i Yanıp Sönüyor",
+            "Title": "Kalorifer NTC Arızası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "60 LED'i Yanıp Sönüyor",
+            "Title": "Baca Hava Akış Problemi",
+            "Description": "Atık gaz sisteminde sorun.",
+            "Solution": "Baca bağlantısını kontrol edin."
+          },
+          {
+            "Code": "60 ve 70 LED'i Yanıp Sönüyor",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 1 barın altında.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "80 LED'i Yanıp Sönüyor",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Trendy-D",
+        "Errors": [
+          {
+            "Code": "F0",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu yetersiz.",
+            "Solution": "Siyah musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F1",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devrede.",
+            "Solution": "'R' tuşu ile resetleyin."
+          },
+          {
+            "Code": "F4",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme yapılamadı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F5",
+            "Title": "Baca Prosestat Sorunu",
+            "Description": "Hava akışında problem var.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ferroli",
+    "Models": [
+      {
+        "Name": "DIVAtech",
+        "Errors": [
+          {
+            "Code": "A01",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "A02",
+            "Title": "Yanlış Alev",
+            "Description": "Brülör kapalıyken alev sinyali algılandı.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "A03",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek, limit termostat devrede.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F04 / F07 / A23",
+            "Title": "Kart Parametre Hatası",
+            "Description": "Elektronik kart parametreleri yanlış.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "A05",
+            "Title": "Fan Arızası",
+            "Description": "Fan çalışmıyor veya kart arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "A06",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme sonrası alev yetersiz.",
+            "Solution": "Gaz basıncını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F10 / F14",
+            "Title": "Kalorifer NTC Hatası",
+            "Description": "Isıtma sensöründe arıza.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F11",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F34",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi 180V altında.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu eksik.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "DIVAtop",
+        "Errors": [
+          {
+            "Code": "A01",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yok veya ateşleme arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "A03",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devreye girdi.",
+            "Solution": "Petekleri açın, resetleyin."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı yetersiz.",
+            "Solution": "Siyah musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F34",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj 180V altında.",
+            "Solution": "Voltajın düzelmesini bekleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Domicompact",
+        "Errors": [
+          {
+            "Code": "F1",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz gelmiyor veya ateşleme parçaları arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F2",
+            "Title": "Yanlış Alev",
+            "Description": "Brülör kapalıyken alev var.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "F3",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat cihazı durdurdu.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı düşük.",
+            "Solution": "Siyah musluktan 1.5 bara kadar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Domicondens",
+        "Errors": [
+          {
+            "Code": "A01",
+            "Title": "Ateşleme Yok",
+            "Description": "Gaz gelmiyor.",
+            "Solution": "Gaz vanalarını açın, resetleyin."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu eksik.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F34",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj 170V altında.",
+            "Solution": "Voltajın düzelmesini bekleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Domiproject (LED)",
+        "Errors": [
+          {
+            "Code": "Yeşil/Sarı Kapalı, Kırmızı Yanıp Sönüyor",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yok veya ateşleme arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "Yeşil Kapalı, Sarı Yanıyor, Kırmızı Yanıp Sönüyor",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Su basıncını ve petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "Yeşil/Kırmızı Kapalı, Sarı Yanıp Sönüyor",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı düşük.",
+            "Solution": "Doldurma musluğu ile 1.5 bar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Econcept",
+        "Errors": [
+          {
+            "Code": "F1",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F3",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat attı.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 1 barın altında.",
+            "Solution": "Doldurma musluğu ile 1.5 bar su basın."
+          },
+          {
+            "Code": "F34",
+            "Title": "Düşük/Yüksek Voltaj",
+            "Description": "Voltaj 190V altı veya 250V üstü.",
+            "Solution": "Voltajın düzelmesini bekleyin."
+          }
+        ]
+      },
+      {
+        "Name": "New Elite",
+        "Errors": [
+          {
+            "Code": "F01",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme gerçekleşmiyor.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F03",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı limitleri aştı.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı 1 barın altında.",
+            "Solution": "Doldurma musluğu ile 1.5 bar su basın."
+          },
+          {
+            "Code": "F34",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj 190V altı.",
+            "Solution": "Voltajın düzelmesini bekleyin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ariston",
+    "Models": [
+      {
+        "Name": "Alteas One Net",
+        "Errors": [
+          {
+            "Code": "101",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı limitleri aştı.",
+            "Solution": "Petek vanalarını açın, resetleyin."
+          },
+          {
+            "Code": "501",
+            "Title": "Ateşleme Sorunu",
+            "Description": "Gaz gelmiyor veya ateşleme parçaları arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "103 / 104 / 105 / 106 / 107 / 108",
+            "Title": "Yetersiz Su Dolaşımı",
+            "Description": "Su basıncı düşük veya sirkülasyon yok.",
+            "Solution": "Su basıncını 1.5 bara getirin. Resetleyin."
+          },
+          {
+            "Code": "305 / 306 / 307",
+            "Title": "Elektronik Kart Sorunu",
+            "Description": "Anakart arızalı veya kablo hatası.",
+            "Solution": "Servis müdahalesi gereklidir."
+          }
+        ]
+      },
+      {
+        "Name": "Cares / Cares Premium",
+        "Errors": [
+          {
+            "Code": "101",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Basıncı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "103-108",
+            "Title": "Sirkülasyon Sorunu",
+            "Description": "Yetersiz su dolaşımı veya düşük basınç.",
+            "Solution": "Su basıncını 1.5 bara tamamlayın."
+          },
+          {
+            "Code": "501",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "305-307",
+            "Title": "Kart Hatası",
+            "Description": "Elektronik kart arızası.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Clas / Clas Evo",
+        "Errors": [
+          {
+            "Code": "101",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devrede.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "501",
+            "Title": "Ateşleme Sorunu",
+            "Description": "Gaz yok veya ateşleme arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "103-107",
+            "Title": "Yetersiz Su Dolaşımı",
+            "Description": "Su basıncı düşük.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "601",
+            "Title": "Atık Gaz Tahliye Sorunu",
+            "Description": "Baca veya fan arızası.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "305-307",
+            "Title": "Elektronik Kart Sorunu",
+            "Description": "Kart arızası.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Egis (LED)",
+        "Errors": [
+          {
+            "Code": "90 LED + Kırmızı LED",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "50 ve 60 LED + Sarı LED",
+            "Title": "Yetersiz Su Basıncı",
+            "Description": "Basınç 1 barın altında.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "60 ve 70 LED + Sarı LED",
+            "Title": "Kalorifer Sensör Arızası",
+            "Description": "Isıtma NTC arızası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "50 ve 70 LED + Sarı LED",
+            "Title": "Sıcak Su Sensör Arızası",
+            "Description": "Kullanım suyu NTC arızası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "Sadece Kırmızı LED",
+            "Title": "Alev Algılanmıyor",
+            "Description": "Ateşleme hatası.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "Sadece Sarı LED",
+            "Title": "Atık Gaz Tahliye Sorunu",
+            "Description": "Baca sistemi arızası.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Genus / Premium Evo",
+        "Errors": [
+          {
+            "Code": "101",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "501",
+            "Title": "Ateşleme Sorunu",
+            "Description": "Alev oluşmadı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "103-107",
+            "Title": "Yetersiz Su Dolaşımı",
+            "Description": "Basınç düşük.",
+            "Solution": "Su basıncını 1.5 bara getirin."
+          },
+          {
+            "Code": "601",
+            "Title": "Atık Gaz Sorunu",
+            "Description": "Fan veya baca arızası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "305-307",
+            "Title": "Kart Hatası",
+            "Description": "Elektronik kart arızası.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Matis (LED)",
+        "Errors": [
+          {
+            "Code": "90 LED Yanıyor",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devrede.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "40-50 Yanıp Sönüyor",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su eksik.",
+            "Solution": "Mavi musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "Alev Üzerine X Işığı",
+            "Title": "Alev Yok",
+            "Description": "Ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "Baca Simgeli Işık",
+            "Title": "Atık Gaz Sorunu",
+            "Description": "Baca çekişi yetersiz.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Uno (LED)",
+        "Errors": [
+          {
+            "Code": "Kırmızı LED (Alev X)",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "Kırmızı ve Sarı LED",
+            "Title": "Düşük Su Basıncı / Aşırı Isınma",
+            "Description": "Su eksik veya cihaz aşırı ısındı.",
+            "Solution": "Su basıncını tamamlayın, 15 dk bekleyip resetleyin."
+          },
+          {
+            "Code": "Sarı LED (Baca)",
+            "Title": "Baca Sistemi Hatası",
+            "Description": "Atık gaz tahliye sorunu.",
+            "Solution": "Servis müdahalesi gereklidir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Beko",
+    "Models": [
+      {
+        "Name": "BK 20 HP / HPT / 26 HP LCD",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Başarısız Ateşleme",
+            "Description": "Gaz gelmiyor veya ateşleme parçaları arızalı.",
+            "Solution": "Gaz vanalarını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E02 / F02",
+            "Title": "Yanlış Alev",
+            "Description": "Yanlış zamanda alev algılandı.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E03",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Su basıncını kontrol edin (1.5 bar). Petekleri açın, resetleyin."
+          },
+          {
+            "Code": "E04 / E05 / E06 / F23",
+            "Title": "Hava Prosestat Sorunu",
+            "Description": "Baca fanı veya prosestat arızası.",
+            "Solution": "Baca bağlantısını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E08 / E82",
+            "Title": "İyonizasyon Sorunu",
+            "Description": "Alev hissedilemiyor.",
+            "Solution": "Resetleyin. Servis müdahalesi gerekebilir."
+          },
+          {
+            "Code": "E09",
+            "Title": "Gaz Valfi Hatası",
+            "Description": "Gaz valfi veya kart sorunu.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E12 / E21 / F25",
+            "Title": "Anakart Arızası",
+            "Description": "Elektronik kart arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F13",
+            "Title": "Aşırı Reset Hatası",
+            "Description": "Reset tuşuna çok fazla basıldı, kilitlendi.",
+            "Solution": "Şalteri kapatıp açın."
+          },
+          {
+            "Code": "F22",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi düşük.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          },
+          {
+            "Code": "F31",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma NTC sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F32",
+            "Title": "Dış Hava Sensör Hatası",
+            "Description": "Dış hava sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F33",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu NTC sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu eksik.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F59",
+            "Title": "Gaz Valfi Sorunu",
+            "Description": "Gaz armatürü arızası.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "BK 20 HR / BK 20 I LCD",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Başarısız Ateşleme",
+            "Description": "Gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devrede.",
+            "Solution": "Su basıncını tamamlayın, petekleri açın, resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Hava Prosestat Sorunu",
+            "Description": "Atık gaz sistemi arızası.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E04",
+            "Title": "Alev Kaybı",
+            "Description": "Alev oluşup sönüyor.",
+            "Solution": "Resetleyin."
+          },
+          {
+            "Code": "E05",
+            "Title": "Kalorifer Sensör Sorunu",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E06",
+            "Title": "Sıcak Su Sensör Sorunu",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu bitmiş.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "E25 / E26",
+            "Title": "Pompa Blokaj Hatası",
+            "Description": "Pompa sıkışmış veya arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E35",
+            "Title": "Alev Yok",
+            "Description": "Alev oluşmuyor.",
+            "Solution": "'R' tuşuna 2 saniye basılı tutun."
+          },
+          {
+            "Code": "E96",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj yetersiz.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör kullanın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Termoteknik",
+    "Models": [
+      {
+        "Name": "Logic",
+        "Errors": [
+          {
+            "Code": "F1",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat su basıncı düşük.",
+            "Solution": "Doldurma musluğu ile su basıncını yükseltin."
+          },
+          {
+            "Code": "L1",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Petek vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "L2",
+            "Title": "Ateşleme Yok",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F2",
+            "Title": "Alev Kaybı",
+            "Description": "Yanma sırasında alev sönüyor.",
+            "Solution": "Gaz girişini kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F3",
+            "Title": "Fan Hatası",
+            "Description": "Atık gaz sistemi (Fan/Prosestat) sorunu.",
+            "Solution": "Baca bağlantısını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "F4 / F5",
+            "Title": "NTC Sensör Hatası",
+            "Description": "Gidiş veya dönüş termistörü arızalı.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "F6",
+            "Title": "Dış Hava Sensör Hatası",
+            "Description": "Dış sensör veya anakart sorunu.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "F7",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi düşük.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          },
+          {
+            "Code": "F9",
+            "Title": "Anakart Hatası",
+            "Description": "Elektronik kart arızası.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "L5",
+            "Title": "Sık Yeniden Başlatma",
+            "Description": "Kombi 15 dakikada bir yeniden başlıyor.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "L6",
+            "Title": "Yanlış Alev",
+            "Description": "Alev algılama sorunu.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "C0 / C2",
+            "Title": "BCC Hatası",
+            "Description": "BCC etkinleştirme sorunu.",
+            "Solution": "Resetleyin. Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Termoslim",
+        "Errors": [
+          {
+            "Code": "E2",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz gelmiyor veya ateşleme parçaları arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E5",
+            "Title": "Fan Prosestat Hatası",
+            "Description": "Atık gaz sistemi sorunu.",
+            "Solution": "Baca bağlantısını kontrol edin, resetleyin."
+          }
+        ]
+      },
+      {
+        "Name": "Thermoplus",
+        "Errors": [
+          {
+            "Code": "A01",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "A03 / E26",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı limitleri aştı.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Fan Prosestat Hatası",
+            "Description": "Hava akış sorunu.",
+            "Solution": "Baca bağlantısını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E05",
+            "Title": "Kalorifer NTC Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E06",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu eksik.",
+            "Solution": "Doldurma musluğu ile su basın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "İmmergas",
+    "Models": [
+      {
+        "Name": "Eolo Mini",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Ateşleme Başarısız",
+            "Description": "Brülörde yanma oluşmuyor.",
+            "Solution": "Gaz vanalarını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devreye girdi.",
+            "Solution": "Petek vanalarını açın, resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Hava Akış Sorunu",
+            "Description": "Baca fanı veya prosestat arızası.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E05",
+            "Title": "Anakart Hatası",
+            "Description": "Elektronik kart arızası.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E06",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu NTC sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E08",
+            "Title": "Maksimum Reset Hatası",
+            "Description": "Çok fazla resetleme yapıldı.",
+            "Solution": "Cihazı şalterden kapatıp açın."
+          },
+          {
+            "Code": "E10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu yetersiz.",
+            "Solution": "Siyah kare uçlu musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "E11",
+            "Title": "Baca Prosestat Arızası",
+            "Description": "Atık gaz sisteminde sorun.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E20",
+            "Title": "Parazit Alev",
+            "Description": "Düzensiz alev oluşumu.",
+            "Solution": "Resetleyin. Gaz valfi veya kart sorunu olabilir."
+          },
+          {
+            "Code": "E27",
+            "Title": "Yetersiz Devir Daim",
+            "Description": "Sirkülasyon sorunu.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E37",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj yetersiz.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          },
+          {
+            "Code": "E38",
+            "Title": "Alev Sinyali Kaybı",
+            "Description": "Çalışırken alev sönüyor.",
+            "Solution": "Resetleyin. Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Eolo Star",
+        "Errors": [
+          {
+            "Code": "01",
+            "Title": "Ateşleme Sorunu",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "02",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat attı.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "03",
+            "Title": "Baca Sensörü Arızası",
+            "Description": "Fan veya prosestat sorunu.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "05",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "06",
+            "Title": "Kalorifer NTC Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 1 barın altında.",
+            "Solution": "Siyah kare uçlu musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "11",
+            "Title": "Baca Sensör Sorunu",
+            "Description": "Baca borusu yerinden çıkmış olabilir.",
+            "Solution": "Bacayı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "27",
+            "Title": "Yetersiz Devir Daim",
+            "Description": "Sirkülasyon yok.",
+            "Solution": "Pompa veya filtre sorunu. Servis çağırın."
+          },
+          {
+            "Code": "28",
+            "Title": "Devrede Su Kaçağı",
+            "Description": "Musluklar kapalıyken su akışı algılanıyor.",
+            "Solution": "Kaçak kontrolü yapın."
+          }
+        ]
+      },
+      {
+        "Name": "Nike Star",
+        "Errors": [
+          {
+            "Code": "01",
+            "Title": "Ateşleme Arızası",
+            "Description": "Gaz gelmiyor veya ateşleme yok.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "02",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Petekleri açın, resetleyin."
+          },
+          {
+            "Code": "03",
+            "Title": "Baca Sensörü Arızası",
+            "Description": "Baca çekişi yok veya sensör arızalı.",
+            "Solution": "Bacayı kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "05",
+            "Title": "Kalorifer Sensör Arızası",
+            "Description": "Isıtma NTC sensörü sorunlu.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "06",
+            "Title": "Sıcak Su Sensör Arızası",
+            "Description": "Kullanım suyu NTC sensörü sorunlu.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu eksik.",
+            "Solution": "Siyah musluktan 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "20",
+            "Title": "Yanlış Alev",
+            "Description": "İyonizasyon sorunu.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "27",
+            "Title": "Devirdaim Sorunu",
+            "Description": "Sirkülasyon yetersiz.",
+            "Solution": "Pompa veya kart arızalı olabilir."
+          }
+        ]
+      },
+      {
+        "Name": "Victrix / Omnia / Tera",
+        "Errors": [
+          {
+            "Code": "01",
+            "Title": "Ateşleme Yok",
+            "Description": "Brülörde yanma oluşmuyor.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "02",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı limitleri aştı.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "03",
+            "Title": "Baca Termostat Hatası",
+            "Description": "Baca gazı sıcaklığı yüksek.",
+            "Solution": "Resetleyin. Sık tekrar ederse servis çağırın."
+          },
+          {
+            "Code": "05",
+            "Title": "Kalorifer NTC Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "06",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "10",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 1 barın altında.",
+            "Solution": "Siyah doldurma musluğu ile 1.5 bar su basın."
+          },
+          {
+            "Code": "16",
+            "Title": "Fan Arızası",
+            "Description": "Fan çalışmıyor.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "20",
+            "Title": "Alev Oluşmuyor",
+            "Description": "Hatalı alev oluşumu.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "27",
+            "Title": "Sirkülasyon Sorunu",
+            "Description": "Su devir daimi yetersiz.",
+            "Solution": "Petek vanalarını açın, resetleyin."
+          },
+          {
+            "Code": "37",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi düşük.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          },
+          {
+            "Code": "38 / 43",
+            "Title": "Alev Kopması",
+            "Description": "Alev sönüyor.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "96",
+            "Title": "Baca Sistemi Arızası",
+            "Description": "Atık gaz sisteminde tıkanıklık veya arıza.",
+            "Solution": "Bacayı kontrol edin. Servis çağırın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Baykan",
+    "Models": [
+      {
+        "Name": "Ay / Güneş / Mars / Yıldız Plus (Dijital)",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin. Gaz varsa resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Hava Akış Sorunu",
+            "Description": "Baca fanı, prosestat veya anakart arızası.",
+            "Solution": "Baca bağlantısını kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "E03",
+            "Title": "Kalorifer NTC Hatası",
+            "Description": "Isıtma devresi sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E04",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E05",
+            "Title": "Gaz Valfi Arızası",
+            "Description": "Gaz valfi veya anakart sorunu.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E06 / E09",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Petek vanalarını açın, su basıncını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E07",
+            "Title": "Pompa Arızası",
+            "Description": "Sirkülasyon pompası sıkışmış veya arızalı.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E08",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı yetersiz.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Nayla",
+        "Errors": [
+          {
+            "Code": "E01 / 80°C",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yok veya ateşleme parçaları arızalı.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E02 / 60°C",
+            "Title": "Hava Akış Sorunu",
+            "Description": "Fan veya prosestat arızası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E03 / 30°C",
+            "Title": "Kalorifer NTC Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E04 / 40°C",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E05 / 30-40°C",
+            "Title": "Gaz Valfi Arızası",
+            "Description": "Gaz valfi veya anakart sorunu.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E06 / E09 / 70°C",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devrede.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E07 / 60-80°C",
+            "Title": "Pompa Arızası",
+            "Description": "Devir daim pompası arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E08 / 50°C",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu bitmiş.",
+            "Solution": "Doldurma musluğundan 1.5 bar su basın."
+          }
+        ]
+      },
+      {
+        "Name": "Yıldız / Nayla Plus (LED)",
+        "Errors": [
+          {
+            "Code": "30°C Işığı",
+            "Title": "Kalorifer NTC Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "40°C Işığı",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "30°C + 40°C Işıkları",
+            "Title": "Gaz Valfi Arızası",
+            "Description": "Gaz valfi veya kart sorunu.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "50°C Işığı",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı yetersiz.",
+            "Solution": "Su basma musluğu ile 1.5 bara tamamlayın."
+          },
+          {
+            "Code": "60°C Işığı",
+            "Title": "Hava Akış Sorunu",
+            "Description": "Baca, fan veya prosestat arızası.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "70°C Işığı",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı çok yüksek.",
+            "Solution": "Petekleri açın, cihazı resetleyin."
+          },
+          {
+            "Code": "60°C + 80°C Işıkları",
+            "Title": "Pompa Arızası",
+            "Description": "Sirkülasyon pompası çalışmıyor.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "80°C Işığı",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Arçelik",
+    "Models": [
+      {
+        "Name": "DGK Y 20 HP / 24 HP",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Başarısız Ateşleme",
+            "Description": "Gaz gelmiyor veya ateşleme sistemi arızalı.",
+            "Solution": "Gaz vanalarını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E02 / F02",
+            "Title": "Hatalı Alev Oluşumu",
+            "Description": "Yanlış alev sinyali algılandı.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E03",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı limitleri aştı.",
+            "Solution": "Su basıncını ve petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E04 / E05 / E06 / F23",
+            "Title": "Baca Prosestat Arızası",
+            "Description": "Hava akışında sorun var (Fan/Prosestat).",
+            "Solution": "Baca bağlantısını kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "E08 / E82",
+            "Title": "İyonizasyon Hatası",
+            "Description": "Alev algılanamıyor.",
+            "Solution": "Resetleyin. Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E09",
+            "Title": "Gaz Valfi Geri Besleme",
+            "Description": "Gaz valfi veya kart sorunu.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E12 / E21 / F25",
+            "Title": "Elektronik Kart Hatası",
+            "Description": "Anakart arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F13",
+            "Title": "Reset Kilitleme",
+            "Description": "Reset düğmesi takılı kaldı veya çok basıldı.",
+            "Solution": "Kombiyi şalterden kapatıp açın."
+          },
+          {
+            "Code": "F22",
+            "Title": "Düşük Voltaj",
+            "Description": "Şebeke gerilimi düşük.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          },
+          {
+            "Code": "F31",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma devresi sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F32",
+            "Title": "Dış Hava Sensör Hatası",
+            "Description": "Dış hava sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F33",
+            "Title": "Kullanım Suyu Sensör Hatası",
+            "Description": "Sıcak su sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu eksik.",
+            "Solution": "Mavi doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F59",
+            "Title": "Gaz Valfi Hatası",
+            "Description": "Gaz grubu arızası.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "DGK Y 20 LCD / 24 LCD (Yoğuşmalı)",
+        "Errors": [
+          {
+            "Code": "A01",
+            "Title": "Ateşleme Sorunu",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "A02",
+            "Title": "Hatalı Alev",
+            "Description": "Hatalı alev oluşumu.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "A03",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devrede.",
+            "Solution": "Petekleri ve basıncı kontrol edip resetleyin."
+          },
+          {
+            "Code": "A06",
+            "Title": "Alev Kopması",
+            "Description": "Ateşleme sonrası alev sönüyor.",
+            "Solution": "Resetleyin. Gaz ayarı kontrol edilmeli."
+          },
+          {
+            "Code": "A15 / F05",
+            "Title": "Baca Prosestat Arızası",
+            "Description": "Hava akış sorunu tekrarlıyor.",
+            "Solution": "Baca ve fan kontrol edilmeli. Servis çağırın."
+          },
+          {
+            "Code": "F10 / F14",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Gidiş suyu sensörleri arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F11",
+            "Title": "Kullanım Suyu Sensör Hatası",
+            "Description": "Sıcak su sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F34",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj düşük.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          },
+          {
+            "Code": "F35",
+            "Title": "Şebeke Frekans Hatası",
+            "Description": "Elektrik şebekesi problemi.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "F37",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu yetersiz.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "F42",
+            "Title": "Isıtma Sensörü Anormalliği",
+            "Description": "Sensör değerleri hatalı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "F43",
+            "Title": "Eşanjör Koruması",
+            "Description": "Sistemde hava var veya sirkülasyon yok.",
+            "Solution": "Petek havalarını alın, basıncı 2 bara çıkarıp resetleyin."
+          },
+          {
+            "Code": "F50",
+            "Title": "Modureg Arızası",
+            "Description": "Gaz valfi modülasyon sorunu.",
+            "Solution": "Servis çağırın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Daikin",
+    "Models": [
+      {
+        "Name": "NDJ / Volume Zone (Premix)",
+        "Errors": [
+          {
+            "Code": "10-64",
+            "Title": "Gaz Valfi Devresi Hatası",
+            "Description": "Gaz valfi devresinde sorun algılandı.",
+            "Solution": "Kombiyi resetleyin. Gaz valfini ve kablo bağlantılarını kontrol edin."
+          },
+          {
+            "Code": "10-65",
+            "Title": "Gaz Valfi Akım Hatası",
+            "Description": "Gaz valfi akımında anormallik.",
+            "Solution": "Kombiyi resetleyin. Gaz valfi ve kablo bağlantılarını kontrol edin."
+          },
+          {
+            "Code": "11-64",
+            "Title": "Alev Oluşmadı",
+            "Description": "Yanma gerçekleşmiyor veya başarısız ateşleme.",
+            "Solution": "Gaz vanasının açık olduğundan emin olun. 3. başarısız denemeden sonra resetleyin. Ateşleme elektrodunu ve yoğuşma sifonunu kontrol edin."
+          },
+          {
+            "Code": "11-65",
+            "Title": "Alev Stabilizasyonu",
+            "Description": "Alev oluştu ancak kararsız.",
+            "Solution": "Yeniden ateşleme yapmasını bekleyin. İyonizasyon elektrodunu kontrol edin."
+          },
+          {
+            "Code": "11-66",
+            "Title": "Güvenlik Süresinde Alev Kaybı",
+            "Description": "Ateşleme sırasında alev kayboldu.",
+            "Solution": "Kombiyi resetleyin. İyonizasyon elektrodunu kontrol edin."
+          },
+          {
+            "Code": "11-67",
+            "Title": "Çalışırken Alev Kaybı",
+            "Description": "Kombi devredeyken alev söndü.",
+            "Solution": "Geçici hata olabilir, tekrar devreye girmesini bekleyin."
+          },
+          {
+            "Code": "12-64",
+            "Title": "İyon Kontrol Sapması",
+            "Description": "İyonizasyon sinyali çok yüksek.",
+            "Solution": "Resetleyin. İyonizasyon elektrodunu ve topraklamayı kontrol edin."
+          },
+          {
+            "Code": "12-65",
+            "Title": "Scot Sistem Aktüatör Hatası",
+            "Description": "Yanma kontrol sistemi hatası.",
+            "Solution": "Kombiyi resetleyin."
+          },
+          {
+            "Code": "13-64 / 13-65",
+            "Title": "Fan Hızı Hatası",
+            "Description": "Talep edilen fan hızına ulaşılamıyor.",
+            "Solution": "Resetleyin. Fanı ve hava akışını engelleyen bir durum olup olmadığını kontrol edin."
+          },
+          {
+            "Code": "16-64",
+            "Title": "Yüksek Baca Gazı Sıcaklığı",
+            "Description": "Baca gazı sıcaklığı limitleri aştı.",
+            "Solution": "Baca bağlantılarını ve ana eşanjör temizliğini kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "1J-64",
+            "Title": "Aşırı Isınma (Limit Termostat)",
+            "Description": "Gidiş suyu sıcaklığı 107°C'yi geçti.",
+            "Solution": "Radyatör vanalarını açın, su basıncını kontrol edin. Resetleyin. Sirkülasyon pompasını kontrol edin."
+          },
+          {
+            "Code": "80-01",
+            "Title": "Dönüş Suyu Sensör Hatası",
+            "Description": "Dönüş NTC sensörü arızalı veya kısa devre.",
+            "Solution": "Sensör ve kabloları kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "81-01",
+            "Title": "Gidiş Suyu Sensör Hatası",
+            "Description": "Gidiş NTC sensörü arızalı veya kısa devre.",
+            "Solution": "Sensör ve kabloları kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "8A-46",
+            "Title": "Donmaya Karşı Koruma",
+            "Description": "Su sıcaklığı 1°C'nin altında.",
+            "Solution": "Cihaz bloke olur. Su sıcaklığının yükselmesini bekleyin."
+          },
+          {
+            "Code": "8H-64",
+            "Title": "Hızlı Sıcaklık Yükselmesi",
+            "Description": "Gidiş suyu sıcaklığı çok hızlı yükseliyor.",
+            "Solution": "Radyatör vanalarını açın, sirkülasyonu sağlayın."
+          },
+          {
+            "Code": "E1-64",
+            "Title": "Yanlış Alev Sinyali",
+            "Description": "Isıtma talebi yokken alev algılandı.",
+            "Solution": "Resetleyin. Gaz valfini ve elektrotları kontrol edin."
+          },
+          {
+            "Code": "HJ-08",
+            "Title": "Yüksek Sistem Basıncı",
+            "Description": "Su basıncı çok yüksek.",
+            "Solution": "Radyatörden su alarak basıncı 1.5 bar seviyesine indirin."
+          },
+          {
+            "Code": "HJ-09",
+            "Title": "Düşük Sistem Basıncı",
+            "Description": "Su basıncı düşük.",
+            "Solution": "Doldurma vanası ile basıncı 1.5 bara çıkarın."
+          },
+          {
+            "Code": "J6-01",
+            "Title": "Yüksek Gidiş Suyu Sıcaklığı",
+            "Description": "Sıcaklık 90°C'nin üzerine çıktı.",
+            "Solution": "Petekleri açın, pompayı kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "U2-01",
+            "Title": "Voltaj Hatası",
+            "Description": "Düşük veya yüksek voltaj (170V altı).",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör kullanımı önerilir."
+          },
+          {
+            "Code": "UA-64",
+            "Title": "BCC Güncelleme Hatası",
+            "Description": "BCC anahtarı güncellemesi sırasında kapanma.",
+            "Solution": "BCC bağlantısını kontrol edin."
+          }
+        ]
+      },
+      {
+        "Name": "Semi Condens (Yarı Yoğuşmalı)",
+        "Errors": [
+          {
+            "Code": "LP",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Basınç 0.4 barın altında.",
+            "Solution": "Su doldurma vanasını açarak basıncı 1.5 bara getirin."
+          },
+          {
+            "Code": "HL",
+            "Title": "Limit Termostat Devrede",
+            "Description": "Su sıcaklığı 90°C'yi aştı.",
+            "Solution": "Resetleyin. Sirkülasyonu kontrol edin."
+          },
+          {
+            "Code": "AF",
+            "Title": "Prosestat Devrede Değil",
+            "Description": "Baca sistemi veya prosestat sorunu.",
+            "Solution": "Baca bağlantısını ve prosestatı kontrol edin."
+          },
+          {
+            "Code": "Hb",
+            "Title": "Kalorifer Dönüş NTC Hatası",
+            "Description": "Dönüş sensöründe kısa devre.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "dB",
+            "Title": "Kullanım Suyu NTC Hatası",
+            "Description": "Sıcak su sensöründe kısa devre.",
+            "Solution": "Sensör değişimi gereklidir."
+          },
+          {
+            "Code": "bC",
+            "Title": "Ateşleme Hatası",
+            "Description": "Başarısız ateşleme denemesi.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "A5",
+            "Title": "Prosestat Kararsızlığı",
+            "Description": "Fan çalışmamasına rağmen prosestat kapalı.",
+            "Solution": "Prosestat arızalı olabilir."
+          },
+          {
+            "Code": "Fr",
+            "Title": "Donma Koruması",
+            "Description": "Sıcaklık 1°C'nin altında.",
+            "Solution": "Sıcaklık yükselene kadar bekleyin."
+          },
+          {
+            "Code": "HP",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Basınç 2.8 barı aştı.",
+            "Solution": "Peteklerden su alarak basıncı düşürün."
+          },
+          {
+            "Code": "CL",
+            "Title": "Yoğuşma Suyu Hatası",
+            "Description": "Yoğuşma suyu seviyesi yüksek.",
+            "Solution": "Yoğuşma sifonunu ve gider hortumunu temizleyin."
+          },
+          {
+            "Code": "LE",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj 170V altında.",
+            "Solution": "Şebeke geriliminin düzelmesini bekleyin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Warmhaus",
+    "Models": [
+      {
+        "Name": "EnerWa / Ewa / MinerWa / PriWa Serisi",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Başarısız Ateşleme",
+            "Description": "Gaz beslemesi yok veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Sistem su basıncı yetersiz.",
+            "Solution": "Doldurma musluğu ile basıncı 1.2-1.5 bara getirin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Su basıncı 3.8 barın üzerinde.",
+            "Solution": "Petek havasını alarak basıncı düşürün. Resetleyin."
+          },
+          {
+            "Code": "E04",
+            "Title": "Kullanım Suyu Sensör Hatası",
+            "Description": "Sıcak su NTC sensörü arızalı.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E05",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Gidiş suyu NTC sensörü arızalı.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E06",
+            "Title": "Ateşleme Yok",
+            "Description": "Gaz besleme arızası.",
+            "Solution": "Gaz vanalarını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E07",
+            "Title": "Aşırı Isınma",
+            "Description": "Emniyet termostatı devreye girdi.",
+            "Solution": "Petek vanalarını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E08",
+            "Title": "Alev Devresi Arızası",
+            "Description": "Elektrot veya elektronik kart sorunu.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E09",
+            "Title": "Sirkülasyon Yok",
+            "Description": "Pompa sıkışmış veya tesisat tıkalı.",
+            "Solution": "Petek vanalarını açın. Resetleyin."
+          },
+          {
+            "Code": "E10 / E16",
+            "Title": "Dönüş Suyu Sensör Hatası",
+            "Description": "Kalorifer dönüş NTC sensörü arızalı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E11",
+            "Title": "Gaz Valfi Modülatör Hatası",
+            "Description": "Gaz valfi bağlantısı kopuk.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E12",
+            "Title": "Boyler Sensör Hatası",
+            "Description": "Boyler sıcaklık sensörü arızalı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E13",
+            "Title": "Atık Gaz Aşırı Isınma",
+            "Description": "Baca gazı sıcaklığı 105°C üzerinde.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E14",
+            "Title": "Baca Sensör Hatası",
+            "Description": "Atık gaz sensörü arızalı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E15",
+            "Title": "Fan Arızası",
+            "Description": "Fan çalışmıyor veya geri bildirim yok.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E17",
+            "Title": "Sıcaklık Farkı Hatası",
+            "Description": "Gidiş ve limit sensör farkı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E19",
+            "Title": "Parametre Hatası",
+            "Description": "Yanlış sistem parametreleri.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E20 / E21",
+            "Title": "Aşırı Sıcaklık / Delta T Hatası",
+            "Description": "Sıcaklık farkı çok yüksek.",
+            "Solution": "Sirkülasyonu kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E28",
+            "Title": "Maksimum Reset",
+            "Description": "Çok fazla resetleme yapıldı.",
+            "Solution": "Sigortayı kapatıp 1 dk bekleyin ve açın."
+          },
+          {
+            "Code": "E37",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj 165V altında.",
+            "Solution": "Voltajın düzelmesini bekleyin. Regülatör önerilir."
+          },
+          {
+            "Code": "E40",
+            "Title": "Frekans Hatası",
+            "Description": "Elektrik şebeke frekansı hatalı.",
+            "Solution": "Elektrik sağlayıcısı ile görüşün."
+          },
+          {
+            "Code": "E41",
+            "Title": "Ateşleme Kaybı",
+            "Description": "6 kereden fazla ateşleme kaybı.",
+            "Solution": "Gaz basıncını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E43",
+            "Title": "Oda Termostatı İletişim Hatası",
+            "Description": "Opentherm bağlantısı kopuk.",
+            "Solution": "Termostat pillerini ve bağlantısını kontrol edin."
+          },
+          {
+            "Code": "E44",
+            "Title": "Alev Oluşmadı",
+            "Description": "Uzun süre alevsiz gaz valfi açık kaldı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E62",
+            "Title": "Kalibrasyon Gerekli",
+            "Description": "Kart değişimi sonrası kalibrasyon hatası.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E80 / E87 / E88",
+            "Title": "Gaz Valfi Devre Hatası",
+            "Description": "Elektronik gaz valfi sorunu.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E96",
+            "Title": "Baca Tıkanıklığı",
+            "Description": "Temiz hava veya baca yolu tıkalı.",
+            "Solution": "Bacayı kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "E99",
+            "Title": "Genel Hata",
+            "Description": "Dahili elektronik donanım sorunu.",
+            "Solution": "Resetleyin. Servis çağırın."
+          }
+        ]
+      },
+      {
+        "Name": "Lawa / Lawa Plus",
+        "Errors": [
+          {
+            "Code": "E02",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı yetersiz.",
+            "Solution": "Doldurma musluğu ile 1.2 bara kadar su basın."
+          },
+          {
+            "Code": "E03",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Tesisat basıncı çok yüksek.",
+            "Solution": "Radyatörden su alarak basıncı düşürün."
+          },
+          {
+            "Code": "E04",
+            "Title": "SKS Sensör Arızası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E05",
+            "Title": "Kalorifer Sensör Arızası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "rE06",
+            "Title": "Ateşleme Yok",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "rE07",
+            "Title": "Emniyet Termostatı",
+            "Description": "Aşırı ısınma meydana geldi.",
+            "Solution": "Reset düğmesine basın."
+          },
+          {
+            "Code": "E09",
+            "Title": "Susuz Çalışma",
+            "Description": "Sistemde su yok veya sirkülasyon yok.",
+            "Solution": "Basıncı ve pompayı kontrol edin."
+          },
+          {
+            "Code": "E10 / E16",
+            "Title": "AUX Sensör Arızası",
+            "Description": "Gidiş veya dönüş sensörü arızalı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E14",
+            "Title": "Atık Gaz Sensör Arızası",
+            "Description": "Baca gazı sıcaklık sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E15",
+            "Title": "Fan Arızası",
+            "Description": "Fan bloke veya besleme hatası.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "rE28",
+            "Title": "Maksimum Kilitlenme",
+            "Description": "Üst üste çok fazla reset atıldı.",
+            "Solution": "Cihazı kapatıp 1 saat bekleyin."
+          },
+          {
+            "Code": "E37",
+            "Title": "Düşük Voltaj",
+            "Description": "Voltaj sınırların altında.",
+            "Solution": "Voltaj düzelince kendiliğinden çalışır."
+          },
+          {
+            "Code": "rE41",
+            "Title": "Alev Kaybı",
+            "Description": "6 ateşleme denemesi başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E43",
+            "Title": "Oda Termostatı Hatası",
+            "Description": "Termostat iletişimi kopuk.",
+            "Solution": "Termostat pillerini ve bağlantısını kontrol edin."
+          },
+          {
+            "Code": "rE81 / rE82",
+            "Title": "Yanma Problemi",
+            "Description": "Baca hattı veya yanma ayarı sorunu.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "rE99",
+            "Title": "Genel Arıza",
+            "Description": "Dahili hata algılandı.",
+            "Solution": "Reset düğmesine basın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Sanica",
+    "Models": [
+      {
+        "Name": "Energy Gold",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Ateşleme Yok",
+            "Description": "Gaz beslemesi yok veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Hava Basıncı / Baca Termostatı",
+            "Description": "Baca çekişi yetersiz veya prosestat arızası.",
+            "Solution": "Baca bağlantılarını kontrol edin. Servis çağırın."
+          },
+          {
+            "Code": "E03",
+            "Title": "MI NTC Sensör Arızası",
+            "Description": "Ana ısıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E04",
+            "Title": "Sıcak Su NTC Arızası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E05",
+            "Title": "Modülasyon Hatası",
+            "Description": "Gaz valfi modülasyon sorunu.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E06",
+            "Title": "Aşırı Isınma",
+            "Description": "Su sıcaklığı limitleri aştı.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E07",
+            "Title": "Hava Basıncı Sıkışmış",
+            "Description": "Prosestat takılı kalmış olabilir.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E08",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı yetersiz.",
+            "Solution": "Doldurma musluğu ile 1.5 bara kadar su basın."
+          },
+          {
+            "Code": "E09",
+            "Title": "Limit Termostat Alarmı",
+            "Description": "Aşırı sıcaklık emniyeti devrede.",
+            "Solution": "Cihazın soğumasını bekleyin ve resetleyin."
+          },
+          {
+            "Code": "E10",
+            "Title": "Yüksek Su Basıncı",
+            "Description": "Basınç çok yüksek.",
+            "Solution": "Peteklerden su alarak basıncı düşürün."
+          },
+          {
+            "Code": "E11",
+            "Title": "Transdücer Arızası",
+            "Description": "Basınç sensörü (transdücer) hatası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E12",
+            "Title": "Uzaktan Reset Hatası",
+            "Description": "Uzaktan resetleme yapılamıyor.",
+            "Solution": "Manuel resetlemeyi deneyin."
+          },
+          {
+            "Code": "E13",
+            "Title": "EEPROM Arızası",
+            "Description": "Elektronik kart yazılım hatası.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E15",
+            "Title": "Hava Basıncı Açık",
+            "Description": "Fan çalışmasına rağmen prosestat kapatmıyor.",
+            "Solution": "Baca ve fan kontrol edilmeli."
+          },
+          {
+            "Code": "E17",
+            "Title": "Baca Sensörü Arızası",
+            "Description": "Baca gazı sıcaklık sensörü hatası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E23",
+            "Title": "Dış Hava Sensörü Arızası",
+            "Description": "Dış ortam sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E24",
+            "Title": "Dönüş Sensörü Arızası",
+            "Description": "Kalorifer dönüş suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E25",
+            "Title": "Sistem Donması",
+            "Description": "Donma koruması devrede veya sensör hatası.",
+            "Solution": "Cihazın ısınmasını bekleyin."
+          },
+          {
+            "Code": "E30",
+            "Title": "Devir Sinyali Yok",
+            "Description": "Fan devir sinyali alınamıyor.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E31",
+            "Title": "TCF Arızası",
+            "Description": "Sıcaklık kontrol/emniyet sensörü hatası.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E33",
+            "Title": "TCF Değer Arızası",
+            "Description": "Sensör değerlerinde düzensizlik.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E88",
+            "Title": "Oda Termostatı Hatası",
+            "Description": "Oda termostatı iletişim kaybı.",
+            "Solution": "Termostat pillerini ve bağlantısını kontrol edin."
+          },
+          {
+            "Code": "E99",
+            "Title": "Yanma Odası Arızası",
+            "Description": "Yanma hücresinde sorun.",
+            "Solution": "Servis müdahalesi gereklidir."
+          }
+        ]
+      },
+      {
+        "Name": "Supercombo / Combo (S 24/30 HE)",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Alev Oluşmadı",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin. Resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Limit Termostat",
+            "Description": "Aşırı ısınma meydana geldi.",
+            "Solution": "Petekleri kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E03",
+            "Title": "Baca / Hava Presostatı Arızası",
+            "Description": "Hava akışında sorun var.",
+            "Solution": "Bacanın tıkalı olmadığından emin olun. Resetleyin."
+          },
+          {
+            "Code": "E04",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı 1.5 barın altında.",
+            "Solution": "Doldurma musluğu ile su basın. Resetleyin."
+          },
+          {
+            "Code": "E05",
+            "Title": "Kalorifer NTC Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E06",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Resetleyin. Servis çağırın."
+          },
+          {
+            "Code": "E35",
+            "Title": "Yanıltıcı Alev",
+            "Description": "Gaz kapalıyken alev algılanıyor.",
+            "Solution": "İyonizasyon elektrodu veya kart arızalı olabilir. Resetleyin."
+          },
+          {
+            "Code": "E37",
+            "Title": "Pompa Arızası",
+            "Description": "Sirkülasyon pompası çalışmıyor.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Auer",
+    "Models": [
+      {
+        "Name": "Maximax / BC / HC",
+        "Errors": [
+          {
+            "Code": "E01 / LP",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat basıncı 1 barın altında.",
+            "Solution": "Su basma musluğu ile 1.5 bara tamamlayın."
+          },
+          {
+            "Code": "E02 / HL",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat devrede.",
+            "Solution": "Resetleyin. Petek vanalarını kontrol edin."
+          },
+          {
+            "Code": "E03 / AF",
+            "Title": "Hava Akış Hatası",
+            "Description": "Prosestat veya fan arızası.",
+            "Solution": "Baca bağlantılarını kontrol edin."
+          },
+          {
+            "Code": "E04 / Hb",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E05 / Db",
+            "Title": "Sıcak Su Sensör Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E06",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Maktek",
+    "Models": [
+      {
+        "Name": "Ruby / Omega",
+        "Errors": [
+          {
+            "Code": "E01",
+            "Title": "Ateşleme Hatası",
+            "Description": "Alev oluşmadı.",
+            "Solution": "Gaz vanalarını kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E02",
+            "Title": "Aşırı Isınma",
+            "Description": "Limit termostat arızası.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          },
+          {
+            "Code": "E03",
+            "Title": "Hava Akış Sorunu",
+            "Description": "Fan veya prosestat arızası.",
+            "Solution": "Servis müdahalesi gereklidir."
+          },
+          {
+            "Code": "E04",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Su basıncı yetersiz.",
+            "Solution": "Doldurma musluğu ile su basın."
+          },
+          {
+            "Code": "E06",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Sensör arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E35",
+            "Title": "Alev Hatası",
+            "Description": "Gaz kapalıyken alev algılandı.",
+            "Solution": "İyonizasyon elektrodu veya kart arızalı olabilir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Süsler",
+    "Models": [
+      {
+        "Name": "P 24 / Dorlion",
+        "Errors": [
+          {
+            "Code": "E0",
+            "Title": "Geçici Arıza / Reset",
+            "Description": "Cihaz geçici bir hata algıladı.",
+            "Solution": "Cihazı 3 kez resetleyin. Düzelmezse anakart arızalıdır."
+          },
+          {
+            "Code": "E1",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu bitmiş.",
+            "Solution": "Su basıncını 1.5 bara getirin."
+          },
+          {
+            "Code": "E2",
+            "Title": "Ateşleme Arızası",
+            "Description": "Gaz yok veya ateşleme başarısız.",
+            "Solution": "Gazı kontrol edin, resetleyin."
+          },
+          {
+            "Code": "E3",
+            "Title": "Kalorifer NTC Hatası",
+            "Description": "Isıtma sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E4",
+            "Title": "Sıcak Su NTC Hatası",
+            "Description": "Kullanım suyu sensörü arızalı.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "E6",
+            "Title": "Aşırı Isınma / Hava Hatası",
+            "Description": "Emniyet modülü veya hava sistemi arızası.",
+            "Solution": "Resetleyin. Düzelmezse servis çağırın."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Navien",
+    "Models": [
+      {
+        "Name": "Ace / Deluxe",
+        "Errors": [
+          {
+            "Code": "02",
+            "Title": "Düşük Su Basıncı",
+            "Description": "Tesisat suyu yetersiz.",
+            "Solution": "Su doldurma vanası ile basıncı artırın."
+          },
+          {
+            "Code": "03",
+            "Title": "Ateşleme Hatası",
+            "Description": "Gaz gelmiyor veya ateşleme başarısız.",
+            "Solution": "Gaz vanalarını kontrol edin."
+          },
+          {
+            "Code": "04",
+            "Title": "Sahte Alev",
+            "Description": "Alev olmadığı halde alev algılanıyor.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "05",
+            "Title": "Kalorifer Sensör Hatası",
+            "Description": "Isıtma devresi sensörü açık devre.",
+            "Solution": "Servis çağırın."
+          },
+          {
+            "Code": "10",
+            "Title": "Hava Basınç Hatası",
+            "Description": "Baca tıkalı veya fan arızalı (APS).",
+            "Solution": "Baca bağlantısını kontrol edin."
+          },
+          {
+            "Code": "16",
+            "Title": "Aşırı Isınma",
+            "Description": "Eşanjör aşırı ısındı.",
+            "Solution": "Pompayı ve filtreleri kontrol edin. Resetleyin."
+          }
+        ]
+      }
+    ]
+  }
+]

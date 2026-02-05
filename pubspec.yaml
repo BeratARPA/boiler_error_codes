@@ -1,0 +1,47 @@
+name: boiler_error_codes
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  share_plus: ^12.0.1
+  rename_app: ^1.6.5
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/    
+    - assets/icon/
+
+flutter_launcher_icons: 
+  android: "launcher_icon" 
+  ios: true 
+  image_path: "assets/icon/icon.png" 
+  min_sdk_android: 21 # android min sdk min:16, default 21 
+  adaptive_icon_background: "#FFFFFF" # Arka plan rengi (Beyaz) 
+  adaptive_icon_foreground: "assets/icon/icon.png"
+  web: 
+    generate: true 
+    image_path: "assets/icon/icon.png" 
+    background_color: "#FFFFFF" 
+    theme_color: "#FFFFFF" 
+  windows: 
+    generate: true 
+    image_path: "assets/icon/icon.png" 
+    icon_size: 48 # min:48, max:256, default: 48 
+  macos: 
+    generate: true 
+    image_path: "assets/icon/icon.png"
