@@ -1,9 +1,13 @@
-# 🛠️ Boiler Fault Codes Guide (Kombi Arıza Rehberi)
+# 🛠️ Boiler Fault Codes Guide
 
-![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-blue?logo=flutter)
-![Platform](https://img.shields.io/badge/Platform-Android-green?logo=android)
-![License](https://img.shields.io/badge/License-MIT-purple)
-![Status](https://img.shields.io/badge/Status-Stable-success)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Web](https://img.shields.io/badge/Web-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
 **A comprehensive, offline mobile assistant for HVAC technicians and boiler users.**
 
